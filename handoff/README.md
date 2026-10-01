@@ -1,5 +1,7 @@
 # Start Here
 
+LATEST USER REQUEST: Secure a portable handoff for Meta Muse Code 1.3 Contributor. Read META_MUSE_START_HERE.md and TRANSFER.md first. No feature redesign was authorized during the final packaging pass.
+
 VERIFIED: The user requested a 60-minute frontend-first sprint on 2026-10-01, starting 15:44:24 IST. Feature work stops at 16:42:24 IST; final deadline 16:44:24 IST.
 
 Genuity Verify is a physical-AI verification, validation and governance project. The original source corpus, Python backend and Vite operations console already exist. The current sprint adds a separate Next.js marketing/product-story site. Do not rewrite or replace working backend/console code.

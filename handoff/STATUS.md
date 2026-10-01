@@ -1,5 +1,11 @@
 # Sprint Status
 
+## Portable Handoff Addendum
+
+VERIFIED 2026-10-01 16:51:45 IST: the separate static export passes all 11 browser tests on port 5192. `tools/preview.mjs` serves the packaged build without npm packages or a backend. `OPEN-WEBSITE.cmd` is the Windows entry point; Node.js is still required. Source/history packaging is performed by `tools/package_transfer.py`, which issues an external receipt only after ZIP CRC, per-file SHA256 and Git-bundle verification.
+
+For the next model, read META_MUSE_START_HERE.md, TRANSFER.md and CODE_WALKTHROUGH.md. Application components, styles, backend and console were preserved. Only icon/Open Graph static metadata declarations and build/transfer helpers changed during this addendum. No new features or production safety claims were added.
+
 Final verification checkpoint: 2026-10-01 16:38:58 IST, minute 55. Feature work is frozen. Functional frontend is complete; public-launch and mobile-performance acceptance remain open.
 
 | Feature | State | Evidence |

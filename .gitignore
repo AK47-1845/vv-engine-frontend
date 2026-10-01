@@ -24,3 +24,5 @@ reference/**/data/
 graphify-out/.graphify_*
 !graphify-out/.graphify_chunk_*.json
 graphify-out/cache/
+site/.next-transfer/
+portable-preview/

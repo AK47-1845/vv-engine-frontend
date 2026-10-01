@@ -1,5 +1,7 @@
 # Genuity Verify
 
+**Moving computers or handing off to Meta Muse?** Read `handoff/TRANSFER.md` and `handoff/META_MUSE_START_HERE.md`. The verified transfer ZIP includes a ready-to-preview website, full source and Git history. `OPEN-WEBSITE.cmd` opens the frozen preview without npm installation; Node.js is required.
+
 Physical-AI verification, validation and governance. This repository contains a Next.js pitch site, an existing Vite operations console, a Python engineering backend, and the source/decision history behind them.
 
 **Start with `handoff/README.md`.** The latest user request was a 60-minute frontend-first sprint. The pitch site is implemented; safety-critical production qualification and public-launch placeholders remain open.

@@ -1,5 +1,7 @@
 # Continuation Prompt
 
+META MUSE CODE 1.3 CONTRIBUTOR: first read META_MUSE_START_HERE.md, TRANSFER.md and CODE_WALKTHROUGH.md. This is a continuation, not a rewrite. Keep the untouched transfer ZIP and protected Git tag. The packaged static preview can run immediately with Node; development uses the existing source and lockfiles.
+
 You are continuing Genuity Verify. Read handoff/README.md, then handoff/STATUS.md, FACTS_VS_PLACEHOLDERS.md, KNOWN_ISSUES.md and BACKLOG.md. Before frontend edits read docs/ai-skills/frontend-craft/SKILL.md if present. Inspect current source and exact test commands.
 
 Do not rewrite working code. Preserve the existing backend and Vite console. Never turn synthetic examples or [REPLACE] placeholders into real traction, safety, certification or hardware claims. Do not publish externally or collect contact data without authorization.

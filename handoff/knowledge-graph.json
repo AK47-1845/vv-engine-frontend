@@ -36,7 +36,12 @@
 		{"id":"performance-receipt","type":"evidence","path":"design-intel/performance/summary.json","description":"Final measured scores; mobile target unmet"},
 		{"id":"reference-study","type":"research","path":"design-intel/observations.json","description":"Six references measured at desktop/mobile widths"},
 		{"id":"craft-skill","type":"instructions","path":"docs/ai-skills/frontend-craft/SKILL.md","description":"Reusable research, implementation and critique workflow"},
-		{"id":"deploy-config","type":"configuration","path":"site/vercel.json","description":"Next.js Vercel build settings; not an executed deployment"}
+		{"id":"deploy-config","type":"configuration","path":"site/vercel.json","description":"Next.js Vercel build settings; not an executed deployment"},
+		{"id":"portable-preview","type":"tool","path":"tools/preview.mjs","description":"Dependency-free loopback server for the frozen static website"},
+		{"id":"transfer-packager","type":"tool","path":"tools/package_transfer.py","description":"Checksummed source, Git history and ready-preview archive"},
+		{"id":"successor-guide","type":"instructions","path":"handoff/META_MUSE_START_HERE.md","description":"No-rewrite incremental workflow for Meta Muse Code 1.3 Contributor"},
+		{"id":"transfer-guide","type":"documentation","path":"handoff/TRANSFER.md","description":"New-machine preview, editable setup and non-destructive Git recovery"},
+		{"id":"code-walkthrough","type":"documentation","path":"handoff/CODE_WALKTHROUGH.md","description":"Owner/test map for frontend, backend and console"}
 	],
 	"edges": [
 		{"from":"console","to":"backend","relation":"calls"},
@@ -74,6 +79,14 @@
 		{"from":"craft-skill","to":"reference-study","relation":"distills"},
 		{"from":"handoff","to":"craft-skill","relation":"requires-reading"},
 		{"from":"deploy-config","to":"entry","relation":"builds"},
-		{"from":"pitch","to":"dependencies","relation":"depends-on"}
+		{"from":"pitch","to":"dependencies","relation":"depends-on"},
+		{"from":"portable-preview","to":"entry","relation":"serves-static-export-of"},
+		{"from":"transfer-packager","to":"portable-preview","relation":"packages"},
+		{"from":"transfer-packager","to":"handoff","relation":"preserves"},
+		{"from":"transfer-guide","to":"transfer-packager","relation":"documents"},
+		{"from":"transfer-guide","to":"portable-preview","relation":"launches"},
+		{"from":"successor-guide","to":"handoff","relation":"requires-reading"},
+		{"from":"code-walkthrough","to":"backend","relation":"explains"},
+		{"from":"code-walkthrough","to":"pitch","relation":"explains"}
 	]
 }
