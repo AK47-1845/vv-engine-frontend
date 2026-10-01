@@ -7,3 +7,4 @@
 - 2026-10-01: Axe found insufficient contrast in light-paper ledger labels and report metadata. Darken the actual text colors; do not exclude the report from the accessibility scan.
 - 2026-10-01: Production Lighthouse found mobile performance 59 despite desktop 100. Removing initial mobile WebGL and deferring desktop-only scroll libraries improved mobile to 81 while preserving a live 2D trace and opt-in 3D. Keep the first reports; do not equate desktop performance with mobile acceptance.
 - 2026-10-01: Live hero telemetry can rerender static Radix dialog trees. Memoization is justified at these measured static-action boundaries; do not add useMemo/useCallback broadly without profiling.
+- 2026-10-01: A final Git whitespace gate flagged verbatim extracted PDF text. Preserve reference evidence and apply authored-code whitespace checks to authored paths; do not normalize the original corpus just to make a repository-wide style check quiet.

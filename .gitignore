@@ -21,3 +21,6 @@ site/playwright-report/
 site/.vercel/
 site/*.tsbuildinfo
 reference/**/data/
+graphify-out/.graphify_*
+!graphify-out/.graphify_chunk_*.json
+graphify-out/cache/

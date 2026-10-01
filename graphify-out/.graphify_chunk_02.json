@@ -1,0 +1,387 @@
+{
+  "nodes": [
+    {
+      "id": "reference_scrollcraft_changelog_rendered_state_regressions",
+      "label": "Rendered-State Regression Findings",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\CHANGELOG.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "PHASE passed mechanically while its opening appeared static because flow markers hid a bespoke fixed stage from dead-scroll detection. The added verification signature must describe rendered values, not raw progress. Applicable to console verification: assert visible simulation and evidence changes, not merely advancing timers or successful requests."
+    },
+    {
+      "id": "reference_scrollcraft_changelog_frozen_clip_regression",
+      "label": "Frozen-Clip Sampling Regression",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\CHANGELOG.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Pinned-travel-only sampling missed frozen clips during entry and exit. The detector was checked against an intentionally defective travel-mapped clip and a corrected neighbor. The cinematic fix is not-applicable-to-console; the transferable lesson is to exercise transition boundaries and prove tests discriminate a known failure."
+    },
+    {
+      "id": "reference_scrollcraft_changelog_portable_workspace",
+      "label": "Portable Workspace and Optional Generation",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\CHANGELOG.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "The v0.2.0 portability pass replaces author-specific paths with workspace resolution, seeds an empty per-user fingerprint registry, and documents supplied assets as requiring no generation key or spend. This is source history, not authorization to install tools, generate assets, or create a separate Scrollcraft workspace for the console."
+    },
+    {
+      "id": "reference_scrollcraft_skill_interview_first",
+      "label": "Interview-First Design",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\SKILL.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Step 0 asks about intent, vibe, sequence, energy, remembered moment, distinctive behavior, aesthetic range, continuity, and owned assets before generation; Step 1 says not to re-ask answered questions. Task context supplied by the user, not asserted by this source: the interview already selected 'Precision engineering console: Light, crisp, data-dense. Dark simulation workspace, clear evidence, restrained technical typography.' Both uploaded and live-contract inputs are required, with no real hardware, for an LTTS CTO governance application with a fully working backend. Preserve those answers rather than reopening a landing-page interview."
+    },
+    {
+      "id": "reference_scrollcraft_skill_scroll_as_timeline",
+      "label": "Scroll as Film Timeline",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\SKILL.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Scrollcraft produces a landing-page journey, feeling curve, engineered peak, varied device score, and screenshot strip. Its four-device minimum, scrub cap, 8-14 viewport-height budget, cinematic opening, and held closing act are not-applicable-to-console. These are source-scoped landing-page prescriptions, not controlling implementation instructions."
+    },
+    {
+      "id": "reference_scrollcraft_skill_semantic_html",
+      "label": "Semantic HTML and Reading Order",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\SKILL.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Step 4 uses actual headings, paragraphs, links, and reading order; text remains selectable and translatable instead of being baked into images. Applicable to the console's labels, evidence, tables, forms, and navigation. The source's specific engine and one-page architecture are not a required application stack."
+    },
+    {
+      "id": "reference_scrollcraft_references_assets_supplied_assets",
+      "label": "Supplied Assets and Brand Fidelity",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\assets.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "The source treats supplied footage and real product or logo references as fidelity anchors, with measured grading before encoding when footage needs it. Console adaptation: preserve supplied LTTS identity and authentic evidence assets; do not represent illustrative material as hardware observations. kie.ai models, published planning rates, and generation recipes remain optional source context, not task dependencies or spending authorization."
+    },
+    {
+      "id": "reference_scrollcraft_references_assets_asset_inspection",
+      "label": "Asset Inspection and Responsive Matching",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\assets.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Inspect every image; derive layout from actual dimensions; inspect portrait crops; pair each poster with its clip's actual first frame and its matching responsive variant. Applicable asset discipline: verify loaded assets, legibility, dimensions, and responsive fit. Cinematic crop and clip requirements are conditional on such media actually being used, not requirements for this console."
+    },
+    {
+      "id": "reference_scrollcraft_references_assets_dense_gop_encoding",
+      "label": "Dense-GOP Scrub Encoding",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\assets.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "GOP 8 desktop and GOP 4 mobile trade file size for random-seek responsiveness; audio is stripped and faststart enabled. Assets also documents parallel generation between pre-generated anchors, whereas worldflight prefers start-image-only chaining and warns about forced tails. Cinematic encoding and chain generation are not-applicable-to-console; retain the cross-source chain-method tension for review rather than making either a global mandate."
+    },
+    {
+      "id": "reference_scrollcraft_references_devices_reduced_motion_navigation",
+      "label": "Reduced-Motion Reachability",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\devices.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Removing a pan transform can remove navigation, so the fallback is native horizontal scrolling or a reachable grid. Pointer effects require hover and fine-pointer support. Applicable to the console: disabling motion must preserve every table column, control, evidence item, and meaningful state on keyboard and touch."
+    },
+    {
+      "id": "reference_scrollcraft_references_devices_truthful_counters",
+      "label": "Truthful Counters and Tabular Numerals",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\devices.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "A counter is a truth claim: use verified figures, never invented brand statistics; tabular numerals prevent digit-width jitter. Console adaptation: compute metrics from identified inputs, distinguish labelled simulated results from verified observations, and omit unsupported claims. Decorative count-up animation is unnecessary."
+    },
+    {
+      "id": "reference_scrollcraft_references_devices_transform_ownership",
+      "label": "Transform Ownership",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\devices.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Magnet, parallax, and cue effects compete for the same transform property; separate wrappers or disable the conflicting rise. The transferable console principle is explicit ownership of rendered properties; the pointer attraction and parallax effects themselves are not required."
+    },
+    {
+      "id": "reference_scrollcraft_references_devices_scroll_device_kit",
+      "label": "Scroll Device Kit and Cue Contract",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\devices.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "The kit covers scrub, pin, pan, reveal, kinetic type, parallax, count, flow, pointer devices, and drift. It distinguishes full-visible-life clip mapping from pinned cue progress, requires useful pin travel, and limits persistent hold cues to the last act. Scroll choreography, greeting cues, animated display type, and forced scene progression are not-applicable-to-console; normal scrolling must not silently drive governance decisions."
+    },
+    {
+      "id": "reference_scrollcraft_references_feel_feeling_curve",
+      "label": "Feeling Curve",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\feel.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "The source plans intended emotion before selecting devices; its infrastructure example progresses through clarity, control, checkable telemetry, and readiness. Applicable by interpretation to the console as operator clarity and confidence. Its rule that emotion outranks learning and its alternating emotional-act structure are not-applicable-to-console; evidence correctness and efficient operation remain primary."
+    },
+    {
+      "id": "reference_scrollcraft_references_feel_peak_end_rule",
+      "label": "Engineered Peak and Resolved Ending",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\feel.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "The source invokes the peak-end rule to allocate one memorable moment the largest asset budget, preceding silence, and longest scroll span, followed by a held resolution. These cinematic prescriptions are not-applicable-to-console. A completed, inspectable result is a useful task-specific interpretation, not justification for delaying information or manufacturing suspense."
+    },
+    {
+      "id": "reference_scrollcraft_references_feel_cold_feel_check",
+      "label": "Cold Feel Check",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\feel.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Observe the experience before rereading the brief, then compare actual and intended effects; do not rewrite expectations merely to describe an accidental result. Console adaptation: conduct a fresh task walkthrough for input selection, evaluation, evidence inspection, and export, recording confusion and failed operations against the confirmed requirements."
+    },
+    {
+      "id": "reference_scrollcraft_references_taste_spacing_rhythm",
+      "label": "Spacing Rhythm and Proximity",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\taste.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "A 4px-base scale, stronger gaps between groups, responsive gutters, and optical checks establish hierarchy before borders or cards. Applicable to a compact, data-dense console without importing landing-page section padding or excessive whitespace."
+    },
+    {
+      "id": "reference_scrollcraft_references_taste_typography",
+      "label": "Purposeful Typography",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\taste.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Use at most two families, readable prose measure, deliberate leading, responsive sizing, and tabular numerals; monospace belongs to code, data, and labels rather than technical costume. The source also recommends display tracking and hero scales, which are source-specific, not controlling rules. Console adaptation: restrained technical type, compact headings, readable evidence text, and independently checked light/dark readability; no oversized hero."
+    },
+    {
+      "id": "reference_scrollcraft_references_taste_color_roles",
+      "label": "Semantic Color Roles and Ground Inversion",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\taste.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "The source defines canvas, surface, ink, muted ink, accent, and accent ink; light/dark grounds may use different lightnesses of one accent. Redefining an ink token requires restating computed color on the subtree. Applicable to the light console shell and dark simulation region; the source's single decorative accent does not replace the console's meaningful status semantics."
+    },
+    {
+      "id": "reference_scrollcraft_references_taste_rendered_contrast",
+      "label": "Rendered Contrast Thresholds",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\taste.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Measure the render: body text at least 4.5:1, large text at least 3:1, controls and focus indicators at least 3:1. Full-frame overlays are not a substitute for readable composition. Applicable to all console surfaces and states, including muted metadata and simulation annotations; promotional image scrims are not required."
+    },
+    {
+      "id": "reference_scrollcraft_references_taste_interactive_states",
+      "label": "Complete Interactive States",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\taste.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Interactive elements need hover, focus-visible, active, and disabled states; use one label per intent and inspect button fit and contrast. Applicable to console controls. Loading, empty, validation-error, unavailable, and completed states are additional task-specific recommendations for a working backend workflow, not claims that the source implements them."
+    },
+    {
+      "id": "reference_scrollcraft_references_taste_restrained_motion",
+      "label": "Restrained UI Motion",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\taste.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Use short UI transitions below 300ms, explicit animated properties, and fine-pointer hover gating; reduced motion preserves comprehension while removing positional movement. Applicable to console feedback and state transitions without adding ornamental scroll effects or delaying access to data."
+    },
+    {
+      "id": "reference_scrollcraft_references_taste_visual_hierarchy",
+      "label": "Visual Hierarchy and Card Restraint",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\taste.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Use proximity, hairlines, and space before cards; avoid nested cards and repeated feature-card page structures. The squint test should reveal primary, secondary, and grouped information. Applicable to dense operational layout, not a ban on genuine tables or necessary repeated controls. Decorative glass, glow, fake dashboards, and invented statistics do not establish quality."
+    },
+    {
+      "id": "reference_scrollcraft_references_template_landing_skeleton",
+      "label": "Illustrative Six-Act Landing Skeleton",
+      "file_type": "document",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\template.html",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "The template warns against preserving its scrub-pin-flow-scrub-pan-pin sequence verbatim. Its promises, range rail, magnetic CTA, and closing act are placeholders and are not-applicable-to-console. It is illustrative reference markup, not an application to copy or a source of working backend behavior."
+    },
+    {
+      "id": "reference_scrollcraft_references_template_semantic_scaffold",
+      "label": "Semantic Scaffold and Theme Tokens",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\template.html",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "The HTML demonstrates lang and viewport metadata, header/main/section/figure/footer landmarks, real headings and links, decorative aria-hidden elements, and six theme roles with two font tokens. Applicable as semantic and token examples only; its ScrollCraft.mount call and cinematic palette do not dictate console architecture."
+    },
+    {
+      "id": "reference_scrollcraft_references_uniqueness_live_surface",
+      "label": "Live Surface Grammar",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\uniqueness.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Live surface uses real app chrome, navigation, controls, labels, and operating logic instead of marketing bars, footage heroes, or giant headings. It is the closest source analogue to the selected console. Its scroll-driven state and pinned-demo recommendations are not-applicable-to-console; use explicit user actions and actual backend responses, with uploaded and live-contract input modes and no implication of connected hardware."
+    },
+    {
+      "id": "reference_scrollcraft_references_uniqueness_live_surface_honesty",
+      "label": "Live-Surface Honesty Rule",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\uniqueness.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "A live surface must compute from real or clearly labelled sample data; inert imagery and dummy panels posing as a working system remain prohibited. Applicable to the governance console: label simulation and fixtures, preserve source provenance, and demonstrate the frontend-to-backend computation path. A permitted in-page sample demo in this reference does not satisfy the user's separate fully working backend requirement."
+    },
+    {
+      "id": "reference_scrollcraft_references_uniqueness_structure_axis",
+      "label": "Structural Differentiation",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\uniqueness.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Changing palette or imagery does not change a repeated structural skeleton. Eight named grammars expose organizing logic as a separate design choice; the dense aesthetic is explicitly suited to data products. Applicable to workflow-led console differentiation. Choosing one of eight landing grammars or obeying their mutual exclusions is not a global product constraint."
+    },
+    {
+      "id": "reference_scrollcraft_references_uniqueness_signature_move",
+      "label": "Meaningful Signature Interaction",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\uniqueness.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "A signature is meaningful bespoke behavior, not a retuned stock effect; examples include an accumulated trace and a running receipt using real figures. Console interpretation: consider linked selection across a simulation event, metric, policy result, and evidence record. This is a recommendation, not an existing feature or a mandate for novelty at the expense of predictable controls."
+    },
+    {
+      "id": "reference_scrollcraft_references_verify_rendered_state_contract",
+      "label": "Rendered-State Verification Contract",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\verify.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Custom fixed experiences publish compact actual painted state through data-sc-verify-state, not a changing progress value; authored holds are explicitly distinguished. Console adaptation: test rendered changes and settled outcomes after real interactions, including failure paths. Scrollcraft attributes themselves are unnecessary unless its harness is deliberately adopted."
+    },
+    {
+      "id": "reference_scrollcraft_references_verify_harness_blind_spots",
+      "label": "Harness Blind Spots and Visual Review",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\verify.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "The source harness merges equal cue text, skips opacity below 0.85, lacks size-aware contrast grading, omits plain non-cue text, and can miss non-overflowing rails. Screenshots cannot alone establish smooth motion or semantic usefulness. Applicable to the console: test all text and states independently of cinematic selectors, inspect screenshots, measure overflow, and report gaps; a green Scrollcraft run is not application acceptance."
+    },
+    {
+      "id": "reference_scrollcraft_references_verify_keyboard_focus",
+      "label": "Keyboard Focus Visibility",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\verify.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Tab order must match visual order and focused controls must be visible; pointer-events:none does not prevent keyboard focus on hidden cues. The engine's centering fix covers flow but not pinned cues. Applicable to console navigation, forms, drawers, and dialogs: verify actual focus visibility and operability instead of assuming CSS hiding or a helper covers it."
+    },
+    {
+      "id": "reference_scrollcraft_references_verify_responsive_reduced_motion",
+      "label": "Responsive and Reduced-Motion Acceptance",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\verify.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Desktop, 390x844 mobile, and reduced-motion passes are followed by manual sheet review; content must remain reachable, copy must not collide with fixed chrome, and failed requests and console errors are recorded. Applicable to the console as responsive functional and visual acceptance, including access to dense data without deleting important content."
+    },
+    {
+      "id": "reference_scrollcraft_references_verify_build_identity",
+      "label": "Served-Build Identity Check",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\verify.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "A occupied port can return another site's successful response after the intended server fails with EADDRINUSE. Confirm title and known assets before trusting screenshots. Applicable to console validation: establish that the tested frontend and backend belong to the intended build; HTTP 200 alone is not proof."
+    },
+    {
+      "id": "reference_scrollcraft_references_worldflight_fixed_stage",
+      "label": "Worldflight Fixed Stage",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\worldflight.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Worldflight keeps every film leg mounted in one fixed stage with only a spacer in document flow; scroll drives film time and overlay opacity, and weights determine travel. This continuous-world landing pattern, waypoint rail, pacing rules, and copy windows are not-applicable-to-console and must not be confused with an interactive engineering simulation workspace."
+    },
+    {
+      "id": "reference_scrollcraft_references_worldflight_seam_law",
+      "label": "Worldflight Seam Law",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\worldflight.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Matching encoded endpoint frames and one-sided crossfades prevent flashes; start-image-only chaining is preferred, with connectors for existing clips, and sources never swap while mounted. The guidance warns about forced wide end images, while assets.md records a successful parallel anchor workflow. That method compatibility needs context-specific review. Entire cinematic seam workflow is not-applicable-to-console."
+    },
+    {
+      "id": "reference_scrollcraft_references_worldflight_settled_state_checks",
+      "label": "Settled-State and Layout Assertions",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\worldflight.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "The source waits for playhead convergence, samples seams, checks actual decoded frames, and asserts fixed-stage geometry. It records zero-height mount and font-driven reflow failures. Transferable console verification: wait for actual render/data readiness, validate nonzero geometry after fonts and resize, and distinguish a visible placeholder from a working renderer. Worldflight equations and page-local resize workarounds are not automatically applicable."
+    },
+    {
+      "id": "reference_scrollcraft_references_worlds_technical_drawing",
+      "label": "Technical Drawing World",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\worlds.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "Among eight art directions, technical drawing is explicitly appropriate to engineering: precise line weights, orthographic views, dimensions, and leader callouts, honestly presented as diagrams. Applicable selectively to explanatory schematics and simulation annotations. Its warm-paper recipe, anti-render wording, and photography-first defaults do not override the chosen light console and dark simulated workspace."
+    },
+    {
+      "id": "reference_scrollcraft_references_worlds_light_canvas",
+      "label": "Light-Canvas Surface Adaptation",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\worlds.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "A light ground needs dark ink, retuned edge highlights and weaker tinted shadows; contrast direction changes with foreground and background. Applicable to independently tuning the light console shell and dark simulation surface. Cinematic scrims are not required, and source palette examples are not prescribed brand colors."
+    },
+    {
+      "id": "reference_scrollcraft_references_worlds_asset_cohesion",
+      "label": "Asset Cohesion and Real Markup",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\worlds.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "The source checks light direction, grade, realism, and consistent brand objects side by side; prompt composition reserves space and never bakes text into images. Applicable to consistent asset treatment and editable console labels. Style preambles and generation negatives are source-scoped creative methods, not required tooling or paid-generation obligations."
+    },
+    {
+      "id": "reference_scrollcraft_templates_fingerprints_per_user_gate",
+      "label": "Per-User Fingerprint Gate",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\templates\\FINGERPRINTS.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "The registry starts empty and compares grammar, navigation, hero device, act sequence, close, and signature, requiring four differences against each prior row. Other authors' examples do not constrain the user's first build. The literal cinematic six-axis gate is not-applicable-to-console; use its differentiation lesson without inventing prior builds or changing familiar operational navigation for novelty."
+    },
+    {
+      "id": "reference_scrollcraft_templates_fingerprints_append_only_history",
+      "label": "Append-Only Design History",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\templates\\FINGERPRINTS.md",
+      "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null,
+      "rationale": "After shipping, append complete rows and newly claimed patterns; superseded builds remain, and history must not be rewritten to make a new plan pass. Applicable as honest design-decision provenance. It is not evidence that the governance backend already implements an immutable audit ledger, nor authorization to edit this registry during extraction."
+    }
+  ],
+  "edges": [
+    {"source":"reference_scrollcraft_changelog_rendered_state_regressions","target":"reference_scrollcraft_references_verify_rendered_state_contract","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\CHANGELOG.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_changelog_frozen_clip_regression","target":"reference_scrollcraft_references_devices_scroll_device_kit","relation":"conceptually_related_to","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\CHANGELOG.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_changelog_portable_workspace","target":"reference_scrollcraft_templates_fingerprints_per_user_gate","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\CHANGELOG.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_skill_interview_first","target":"reference_scrollcraft_references_uniqueness_structure_axis","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\SKILL.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_skill_interview_first","target":"reference_scrollcraft_references_feel_feeling_curve","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\SKILL.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_skill_scroll_as_timeline","target":"reference_scrollcraft_references_devices_scroll_device_kit","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\SKILL.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_skill_semantic_html","target":"reference_scrollcraft_references_template_semantic_scaffold","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\SKILL.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_assets_supplied_assets","target":"reference_scrollcraft_references_assets_dense_gop_encoding","relation":"conceptually_related_to","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\assets.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_assets_asset_inspection","target":"reference_scrollcraft_references_worlds_asset_cohesion","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\assets.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_assets_dense_gop_encoding","target":"reference_scrollcraft_references_worldflight_seam_law","relation":"conceptually_related_to","confidence":"AMBIGUOUS","confidence_score":0.2,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\assets.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_devices_scroll_device_kit","target":"reference_scrollcraft_references_devices_reduced_motion_navigation","relation":"conceptually_related_to","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\devices.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_devices_scroll_device_kit","target":"reference_scrollcraft_references_devices_truthful_counters","relation":"conceptually_related_to","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\devices.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_devices_scroll_device_kit","target":"reference_scrollcraft_references_devices_transform_ownership","relation":"conceptually_related_to","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\devices.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_feel_feeling_curve","target":"reference_scrollcraft_references_feel_peak_end_rule","relation":"conceptually_related_to","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\feel.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_feel_cold_feel_check","target":"reference_scrollcraft_references_feel_feeling_curve","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\feel.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_feel_peak_end_rule","target":"reference_scrollcraft_references_uniqueness_signature_move","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\feel.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_taste_spacing_rhythm","target":"reference_scrollcraft_references_taste_visual_hierarchy","relation":"rationale_for","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\taste.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_taste_color_roles","target":"reference_scrollcraft_references_taste_rendered_contrast","relation":"conceptually_related_to","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\taste.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_taste_interactive_states","target":"reference_scrollcraft_references_taste_rendered_contrast","relation":"conceptually_related_to","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\taste.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_taste_restrained_motion","target":"reference_scrollcraft_references_devices_reduced_motion_navigation","relation":"conceptually_related_to","confidence":"INFERRED","confidence_score":0.85,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\taste.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_taste_typography","target":"reference_scrollcraft_references_taste_visual_hierarchy","relation":"conceptually_related_to","confidence":"INFERRED","confidence_score":0.85,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\taste.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_template_landing_skeleton","target":"reference_scrollcraft_skill_scroll_as_timeline","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\template.html","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_template_semantic_scaffold","target":"reference_scrollcraft_references_taste_color_roles","relation":"implements","confidence":"INFERRED","confidence_score":0.95,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\template.html","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_uniqueness_live_surface","target":"reference_scrollcraft_references_uniqueness_live_surface_honesty","relation":"conceptually_related_to","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\uniqueness.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_uniqueness_live_surface_honesty","target":"reference_scrollcraft_references_taste_visual_hierarchy","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\uniqueness.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_uniqueness_structure_axis","target":"reference_scrollcraft_references_uniqueness_live_surface","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\uniqueness.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_uniqueness_structure_axis","target":"reference_scrollcraft_references_uniqueness_signature_move","relation":"conceptually_related_to","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\uniqueness.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_uniqueness_structure_axis","target":"reference_scrollcraft_templates_fingerprints_per_user_gate","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\uniqueness.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_verify_harness_blind_spots","target":"reference_scrollcraft_references_verify_rendered_state_contract","relation":"rationale_for","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\verify.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_verify_harness_blind_spots","target":"reference_scrollcraft_references_taste_rendered_contrast","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\verify.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_verify_keyboard_focus","target":"reference_scrollcraft_references_taste_interactive_states","relation":"conceptually_related_to","confidence":"INFERRED","confidence_score":0.85,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\verify.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_verify_responsive_reduced_motion","target":"reference_scrollcraft_references_devices_reduced_motion_navigation","relation":"conceptually_related_to","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\verify.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_verify_build_identity","target":"reference_scrollcraft_references_verify_responsive_reduced_motion","relation":"rationale_for","confidence":"INFERRED","confidence_score":0.85,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\verify.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_worldflight_fixed_stage","target":"reference_scrollcraft_references_worldflight_seam_law","relation":"conceptually_related_to","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\worldflight.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_worldflight_settled_state_checks","target":"reference_scrollcraft_references_worldflight_fixed_stage","relation":"references","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\worldflight.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_worldflight_settled_state_checks","target":"reference_scrollcraft_references_verify_rendered_state_contract","relation":"conceptually_related_to","confidence":"INFERRED","confidence_score":0.85,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\worldflight.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_worlds_technical_drawing","target":"reference_scrollcraft_references_uniqueness_signature_move","relation":"conceptually_related_to","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\uniqueness.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_worlds_light_canvas","target":"reference_scrollcraft_references_taste_color_roles","relation":"conceptually_related_to","confidence":"INFERRED","confidence_score":0.85,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\worlds.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_worlds_asset_cohesion","target":"reference_scrollcraft_skill_semantic_html","relation":"conceptually_related_to","confidence":"INFERRED","confidence_score":0.85,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\worlds.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_templates_fingerprints_per_user_gate","target":"reference_scrollcraft_templates_fingerprints_append_only_history","relation":"conceptually_related_to","confidence":"EXTRACTED","confidence_score":1.0,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\templates\\FINGERPRINTS.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_templates_fingerprints_append_only_history","target":"reference_scrollcraft_references_feel_cold_feel_check","relation":"semantically_similar_to","confidence":"INFERRED","confidence_score":0.75,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\templates\\FINGERPRINTS.md","source_location":null,"weight":1.0},
+    {"source":"reference_scrollcraft_references_verify_rendered_state_contract","target":"reference_scrollcraft_references_uniqueness_live_surface_honesty","relation":"semantically_similar_to","confidence":"INFERRED","confidence_score":0.85,"source_file":"C:\\Users\\sandeep\\Downloads\\karthik\\claude bro\\reference\\scrollcraft\\references\\verify.md","source_location":null,"weight":1.0}
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0
+}
