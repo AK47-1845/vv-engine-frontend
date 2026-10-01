@@ -1,0 +1,22 @@
+{
+ "T": 200,
+ "description": "Fast curve, real overshoots",
+ "generator": "generate.py v1",
+ "id": "aggressive_fast_s1",
+ "license": "internal demo, no restriction",
+ "real_params": {
+  "bias": [
+   0.15,
+   -0.1
+  ],
+  "dropout_p": 0.03,
+  "sigma": 0.05,
+  "spike": 0.55
+ },
+ "scenario": "aggressive_fast",
+ "seed": 1,
+ "sim_params": {
+  "sigma": 0.01
+ },
+ "source": "synthetic/generator"
+}

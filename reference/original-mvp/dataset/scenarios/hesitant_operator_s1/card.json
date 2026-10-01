@@ -1,0 +1,22 @@
+{
+ "T": 200,
+ "description": "Curve with dwell pauses mid path",
+ "generator": "generate.py v1",
+ "id": "hesitant_operator_s1",
+ "license": "internal demo, no restriction",
+ "real_params": {
+  "bias": [
+   0.07,
+   -0.05
+  ],
+  "dropout_p": 0.02,
+  "sigma": 0.03,
+  "spike": 0.45
+ },
+ "scenario": "hesitant_operator",
+ "seed": 1,
+ "sim_params": {
+  "sigma": 0.01
+ },
+ "source": "synthetic/generator"
+}

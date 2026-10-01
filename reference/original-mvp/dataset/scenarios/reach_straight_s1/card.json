@@ -1,0 +1,22 @@
+{
+ "T": 200,
+ "description": "Straight line reach, mild degradation",
+ "generator": "generate.py v1",
+ "id": "reach_straight_s1",
+ "license": "internal demo, no restriction",
+ "real_params": {
+  "bias": [
+   0.1,
+   -0.06
+  ],
+  "dropout_p": 0.01,
+  "sigma": 0.02,
+  "spike": 0.4
+ },
+ "scenario": "reach_straight",
+ "seed": 1,
+ "sim_params": {
+  "sigma": 0.01
+ },
+ "source": "synthetic/generator"
+}

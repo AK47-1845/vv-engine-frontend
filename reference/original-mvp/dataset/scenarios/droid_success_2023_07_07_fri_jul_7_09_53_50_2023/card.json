@@ -1,0 +1,36 @@
+{
+ "T": 495,
+ "description": "DROID raw episode, Franka arm, real commanded vs actual EE xy",
+ "generator": "tools/fetch_droid_more.py v1",
+ "h5_attrs": {
+  "building": "BAIR",
+  "controller_on": "True",
+  "current_task": "Use cup to pour something granular (ex: nuts, rice, dried pasta, coffee beans)",
+  "failure": "False",
+  "fixed_tasks": "['Use cup to pour something granular (ex: nuts, rice, dried pasta, coffee beans)']",
+  "movement_enabled": "False",
+  "new_tasks": "['Pour circular tokens to a bowl']",
+  "robot_serial_number": "fr3-295341-1326595",
+  "scene_id": "5207831207",
+  "success": "True",
+  "time": "Fri_Jul__7_09:53:50_2023",
+  "user": "Zehan Ma",
+  "version_number": "1.3"
+ },
+ "id": "droid_success_2023_07_07_fri_jul_7_09_53_50_2023",
+ "license": "DROID raw, see https://github.com/droid-dataset/droid",
+ "mapping": {
+  "dropped": "z, orientation, gripper, torques (format is [x,y])",
+  "real": "action/cartesian_position[:, 0:2]",
+  "sim": "action/target_cartesian_position[:, 0:2]"
+ },
+ "scenario": "droid_real (public real capture)",
+ "seed": 0,
+ "seed_note": "seeds do not apply to real captures",
+ "source": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/AUTOLab/success/2023-07-07/Fri_Jul__7_09:53:50_2023/trajectory.h5",
+ "transforms": [
+  "rounded to 4 decimals",
+  "no smoothing",
+  "no resample"
+ ]
+}

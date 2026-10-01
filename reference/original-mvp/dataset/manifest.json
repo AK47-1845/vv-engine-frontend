@@ -1,0 +1,309 @@
+{
+ "count": 45,
+ "created": "2026-09-28T19:09:02Z",
+ "generator": "generate.py v1",
+ "pairs": [
+  {
+   "T": 200,
+   "id": "reach_straight_s1",
+   "scenario": "reach_straight",
+   "seed": 1
+  },
+  {
+   "T": 200,
+   "id": "reach_straight_s2",
+   "scenario": "reach_straight",
+   "seed": 2
+  },
+  {
+   "T": 200,
+   "id": "reach_straight_s3",
+   "scenario": "reach_straight",
+   "seed": 3
+  },
+  {
+   "T": 200,
+   "id": "reach_curve_s1",
+   "scenario": "reach_curve",
+   "seed": 1
+  },
+  {
+   "T": 200,
+   "id": "reach_curve_s2",
+   "scenario": "reach_curve",
+   "seed": 2
+  },
+  {
+   "T": 200,
+   "id": "reach_curve_s3",
+   "scenario": "reach_curve",
+   "seed": 3
+  },
+  {
+   "T": 200,
+   "id": "pick_place_s1",
+   "scenario": "pick_place",
+   "seed": 1
+  },
+  {
+   "T": 200,
+   "id": "pick_place_s2",
+   "scenario": "pick_place",
+   "seed": 2
+  },
+  {
+   "T": 200,
+   "id": "pick_place_s3",
+   "scenario": "pick_place",
+   "seed": 3
+  },
+  {
+   "T": 200,
+   "id": "wipe_raster_s1",
+   "scenario": "wipe_raster",
+   "seed": 1
+  },
+  {
+   "T": 200,
+   "id": "wipe_raster_s2",
+   "scenario": "wipe_raster",
+   "seed": 2
+  },
+  {
+   "T": 200,
+   "id": "wipe_raster_s3",
+   "scenario": "wipe_raster",
+   "seed": 3
+  },
+  {
+   "T": 200,
+   "id": "insert_push_s1",
+   "scenario": "insert_push",
+   "seed": 1
+  },
+  {
+   "T": 200,
+   "id": "insert_push_s2",
+   "scenario": "insert_push",
+   "seed": 2
+  },
+  {
+   "T": 200,
+   "id": "insert_push_s3",
+   "scenario": "insert_push",
+   "seed": 3
+  },
+  {
+   "T": 200,
+   "id": "circle_trace_s1",
+   "scenario": "circle_trace",
+   "seed": 1
+  },
+  {
+   "T": 200,
+   "id": "circle_trace_s2",
+   "scenario": "circle_trace",
+   "seed": 2
+  },
+  {
+   "T": 200,
+   "id": "circle_trace_s3",
+   "scenario": "circle_trace",
+   "seed": 3
+  },
+  {
+   "T": 200,
+   "id": "figure_eight_s1",
+   "scenario": "figure_eight",
+   "seed": 1
+  },
+  {
+   "T": 200,
+   "id": "figure_eight_s2",
+   "scenario": "figure_eight",
+   "seed": 2
+  },
+  {
+   "T": 200,
+   "id": "figure_eight_s3",
+   "scenario": "figure_eight",
+   "seed": 3
+  },
+  {
+   "T": 200,
+   "id": "hesitant_operator_s1",
+   "scenario": "hesitant_operator",
+   "seed": 1
+  },
+  {
+   "T": 200,
+   "id": "hesitant_operator_s2",
+   "scenario": "hesitant_operator",
+   "seed": 2
+  },
+  {
+   "T": 200,
+   "id": "hesitant_operator_s3",
+   "scenario": "hesitant_operator",
+   "seed": 3
+  },
+  {
+   "T": 200,
+   "id": "dropout_heavy_s1",
+   "scenario": "dropout_heavy",
+   "seed": 1
+  },
+  {
+   "T": 200,
+   "id": "dropout_heavy_s2",
+   "scenario": "dropout_heavy",
+   "seed": 2
+  },
+  {
+   "T": 200,
+   "id": "dropout_heavy_s3",
+   "scenario": "dropout_heavy",
+   "seed": 3
+  },
+  {
+   "T": 200,
+   "id": "bias_drift_s1",
+   "scenario": "bias_drift",
+   "seed": 1
+  },
+  {
+   "T": 200,
+   "id": "bias_drift_s2",
+   "scenario": "bias_drift",
+   "seed": 2
+  },
+  {
+   "T": 200,
+   "id": "bias_drift_s3",
+   "scenario": "bias_drift",
+   "seed": 3
+  },
+  {
+   "T": 200,
+   "id": "latency_lag_s1",
+   "scenario": "latency_lag",
+   "seed": 1
+  },
+  {
+   "T": 200,
+   "id": "latency_lag_s2",
+   "scenario": "latency_lag",
+   "seed": 2
+  },
+  {
+   "T": 200,
+   "id": "latency_lag_s3",
+   "scenario": "latency_lag",
+   "seed": 3
+  },
+  {
+   "T": 200,
+   "id": "aggressive_fast_s1",
+   "scenario": "aggressive_fast",
+   "seed": 1
+  },
+  {
+   "T": 200,
+   "id": "aggressive_fast_s2",
+   "scenario": "aggressive_fast",
+   "seed": 2
+  },
+  {
+   "T": 200,
+   "id": "aggressive_fast_s3",
+   "scenario": "aggressive_fast",
+   "seed": 3
+  },
+  {
+   "T": 200,
+   "id": "cautious_slow_s1",
+   "scenario": "cautious_slow",
+   "seed": 1
+  },
+  {
+   "T": 200,
+   "id": "cautious_slow_s2",
+   "scenario": "cautious_slow",
+   "seed": 2
+  },
+  {
+   "T": 200,
+   "id": "cautious_slow_s3",
+   "scenario": "cautious_slow",
+   "seed": 3
+  },
+  {
+   "T": 200,
+   "id": "contact_slide_s1",
+   "scenario": "contact_slide",
+   "seed": 1
+  },
+  {
+   "T": 200,
+   "id": "contact_slide_s2",
+   "scenario": "contact_slide",
+   "seed": 2
+  },
+  {
+   "T": 200,
+   "id": "contact_slide_s3",
+   "scenario": "contact_slide",
+   "seed": 3
+  },
+  {
+   "T": 400,
+   "id": "long_horizon_s1",
+   "scenario": "long_horizon",
+   "seed": 1
+  },
+  {
+   "T": 400,
+   "id": "long_horizon_s2",
+   "scenario": "long_horizon",
+   "seed": 2
+  },
+  {
+   "T": 400,
+   "id": "long_horizon_s3",
+   "scenario": "long_horizon",
+   "seed": 3
+  }
+ ],
+ "real_captures": [
+  {
+   "T": 472,
+   "id": "droid_pour_s1",
+   "source": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/AUTOLab/success/2023-07-07/Fri_Jul__7_09:42:23_2023/trajectory.h5"
+  },
+  {
+   "T": 458,
+   "id": "droid_success_2023_07_07_fri_jul_7_09_43_39_2023",
+   "source": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/AUTOLab/success/2023-07-07/Fri_Jul__7_09:43:39_2023/trajectory.h5"
+  },
+  {
+   "T": 495,
+   "id": "droid_success_2023_07_07_fri_jul_7_09_53_50_2023",
+   "source": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/AUTOLab/success/2023-07-07/Fri_Jul__7_09:53:50_2023/trajectory.h5"
+  },
+  {
+   "T": 380,
+   "id": "droid_success_2023_07_07_fri_jul_7_10_04_33_2023",
+   "source": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/AUTOLab/success/2023-07-07/Fri_Jul__7_10:04:33_2023/trajectory.h5"
+  },
+  {
+   "T": 567,
+   "id": "droid_success_2023_07_07_fri_jul_7_10_09_06_2023",
+   "source": "https://storage.googleapis.com/gresearch/robotics/droid_raw/1.0.1/AUTOLab/success/2023-07-07/Fri_Jul__7_10:09:06_2023/trajectory.h5"
+  }
+ ],
+ "seeds": [
+  1,
+  2,
+  3
+ ]
+}

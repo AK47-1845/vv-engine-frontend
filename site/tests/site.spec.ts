@@ -92,15 +92,15 @@ test('internal destinations and launch metadata exist', async ({ page, request }
 test('WebGL unavailable uses the real local poster', async ({ page }) => {
   await page.addInitScript(() => {
     const original = HTMLCanvasElement.prototype.getContext;
-    HTMLCanvasElement.prototype.getContext = function (type: string, ...parameters: unknown[]) {
+    HTMLCanvasElement.prototype.getContext = function (this: HTMLCanvasElement, type: string, ...parameters: unknown[]) {
       if (type === 'webgl' || type === 'webgl2' || type === 'experimental-webgl') return null;
       return Reflect.apply(original, this, [type, ...parameters]);
     } as typeof original;
   });
   await page.goto('/');
-  const poster = page.locator('.hero .scene-poster');
+  const poster = page.getByAltText('Static verification trace of a robotic arm. WebGL unavailable.');
   await expect(poster).toBeVisible();
-  expect(await poster.evaluate((image: HTMLImageElement) => image.complete && image.naturalWidth === 1280)).toBe(true);
+  await expect.poll(() => poster.evaluate((image: HTMLImageElement) => image.complete && image.naturalWidth === 1280)).toBe(true);
   await page.screenshot({ path: path.join(shots, 'hero-webgl-fallback.png'), animations: 'disabled' });
 });
 

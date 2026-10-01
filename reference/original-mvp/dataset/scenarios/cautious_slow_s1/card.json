@@ -1,0 +1,22 @@
+{
+ "T": 200,
+ "description": "Slow curve, real nearly matches (control)",
+ "generator": "generate.py v1",
+ "id": "cautious_slow_s1",
+ "license": "internal demo, no restriction",
+ "real_params": {
+  "bias": [
+   0.02,
+   -0.01
+  ],
+  "dropout_p": 0.005,
+  "sigma": 0.01,
+  "spike": 0.3
+ },
+ "scenario": "cautious_slow",
+ "seed": 1,
+ "sim_params": {
+  "sigma": 0.01
+ },
+ "source": "synthetic/generator"
+}

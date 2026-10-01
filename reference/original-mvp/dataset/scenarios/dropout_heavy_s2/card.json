@@ -1,0 +1,22 @@
+{
+ "T": 200,
+ "description": "Curve under heavy sensor dropout",
+ "generator": "generate.py v1",
+ "id": "dropout_heavy_s2",
+ "license": "internal demo, no restriction",
+ "real_params": {
+  "bias": [
+   0.05,
+   -0.03
+  ],
+  "dropout_p": 0.08,
+  "sigma": 0.03,
+  "spike": 0.7
+ },
+ "scenario": "dropout_heavy",
+ "seed": 2,
+ "sim_params": {
+  "sigma": 0.01
+ },
+ "source": "synthetic/generator"
+}

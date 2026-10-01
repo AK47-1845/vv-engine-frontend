@@ -1,0 +1,22 @@
+{
+ "T": 200,
+ "description": "Approach, push, retract (insertion stand in)",
+ "generator": "generate.py v1",
+ "id": "insert_push_s3",
+ "license": "internal demo, no restriction",
+ "real_params": {
+  "bias": [
+   0.06,
+   -0.04
+  ],
+  "dropout_p": 0.015,
+  "sigma": 0.02,
+  "spike": 0.4
+ },
+ "scenario": "insert_push",
+ "seed": 3,
+ "sim_params": {
+  "sigma": 0.01
+ },
+ "source": "synthetic/generator"
+}

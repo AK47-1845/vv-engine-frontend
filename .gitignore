@@ -20,3 +20,4 @@ site/test-results/
 site/playwright-report/
 site/.vercel/
 site/*.tsbuildinfo
+reference/**/data/

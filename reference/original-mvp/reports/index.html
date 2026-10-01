@@ -1,0 +1,28 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<title>Genuity Verify · static scorecards</title><style>body{margin:0;background:#0e1216;color:#e9e6df;font:14px/1.5 'Segoe UI',system-ui,sans-serif}
+.wrap{max-width:900px;margin:0 auto;padding:24px 20px}
+h1{font-size:20px;margin:0 0 4px}h2{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#98a1ab;margin:20px 0 8px}
+.muted{color:#98a1ab}.small{font-size:12px}a{color:#d9a021}
+.panel{background:#151b22;border:1px solid #28303b;border-radius:6px;padding:16px;margin:12px 0}
+.verdict{font-size:17px;font-weight:700;padding:12px 14px;border-radius:6px;border:1px solid #28303b}
+.verdict small{display:block;font-size:12px;font-weight:400;color:#98a1ab}
+.verdict.green{background:#12261a;border-color:#3fa34d;color:#8fdc99}
+.verdict.amber{background:#2b2110;border-color:#e0aa2e;color:#f0c35c}
+.verdict.red{background:#2c1518;border-color:#d05252;color:#ef9a9a}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{border-bottom:1px solid #28303b;padding:7px 8px;text-align:left}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:#98a1ab}
+td:nth-child(2){font-family:ui-monospace,Consolas,monospace;text-align:right;white-space:nowrap}
+td.desc{color:#98a1ab;font-size:12px}
+.badge{font:700 10px ui-monospace,monospace;padding:2px 8px;border-radius:10px}
+.badge.green{background:#1d4d25;color:#8fdc99}.badge.amber{background:#4d3a10;color:#f0c35c}.badge.red{background:#5a1f24;color:#ef9a9a}
+svg{width:100%;height:auto;background:#0b0f13;border:1px solid #28303b;border-radius:6px}
+.card{display:block;text-decoration:none;color:#e9e6df}
+.card:hover{border-color:#d9a021}.mono{font-family:ui-monospace,Consolas,monospace}</style></head><body><div class="wrap">
+<h1>Genuity Verify · Module 1 scorecards (static)</h1>
+<p class="muted">EU Machinery Reg clock: <b style="color:#d9a021">T-114 days → 2027-01-20</b>
+· gates DRAFT · live console: <span class="mono">python backend/server.py</span></p>
+<a class="card panel" href="scorecard-clean.html"><span class="badge green">TRUSTED</span> <b>Clean policy</b><br><span class="muted small">Tracks commands with small noise. Expected: TRUSTED.</span><br><span class="mono small muted">drift 0.0355 · sens 0.17 · frechet 0.0811</span></a><a class="card panel" href="scorecard-drifty.html"><span class="badge red">BLOCKED</span> <b>Drifty policy</b><br><span class="muted small">Random-walk error compounds down-horizon. Expected: BLOCKED on drift.</span><br><span class="mono small muted">drift 0.6365 · sens 0.1094 · frechet 1.333</span></a><a class="card panel" href="scorecard-playback.html"><span class="badge red">BLOCKED</span> <b>Playback policy</b><br><span class="muted small">Replays a fixed tape, ignores controls. Expected: BLOCKED, sensitivity 0.0.</span><br><span class="mono small muted">drift 1.1214 · sens 0.0 · frechet 1.4142</span></a><a class="card panel" href="scorecard-synthfed.html"><span class="badge amber">REVIEW</span> <b>Synthetic-trained policy</b><br><span class="muted small">Trained on synthetic data: responsive but spiky. Expected: REVIEW.</span><br><span class="mono small muted">drift 0.1576 · sens 0.1708 · frechet 0.623</span></a>
+<p class="muted small">Same engine as the live server, seed 1. Static pages are not
+ledger-chained; the live console chains every run. Jerk/bounds rows are proxies.</p>
+</div></body></html>

@@ -11,6 +11,7 @@ try {
   const image = await page.locator('[data-testid="demo-scene"] canvas').screenshot();
   const output = path.resolve(import.meta.dirname, '../public/robot-poster.webp');
   await sharp(image).resize({ width: 1280 }).webp({ quality: 88 }).toFile(output);
+  await sharp(image).resize({ width: 640 }).webp({ quality: 78 }).toFile(path.resolve(import.meta.dirname, '../public/robot-poster-mobile.webp'));
   const metadata = await sharp(output).metadata();
   if (metadata.width !== 1280 || metadata.height < 200) throw new Error('Invalid poster geometry');
   console.log({ poster: output, width: metadata.width, height: metadata.height, bytes: metadata.size });

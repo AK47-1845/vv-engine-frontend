@@ -21,8 +21,8 @@ try {
     const metrics = await page.evaluate(() => {
       const canvas = document.querySelector('.hero canvas');
       const context = canvas.getContext('webgl2');
-      const bytes = new Uint8Array(canvas.width * canvas.height * 4);
-      context.readPixels(0, 0, canvas.width, canvas.height, context.RGBA, context.UNSIGNED_BYTE, bytes);
+      const bytes = context ? new Uint8Array(canvas.width * canvas.height * 4) : canvas.getContext('2d').getImageData(0, 0, canvas.width, canvas.height).data;
+      if (context) context.readPixels(0, 0, canvas.width, canvas.height, context.RGBA, context.UNSIGNED_BYTE, bytes);
       let colored = 0;
       let cyan = 0;
       for (let index = 0; index < bytes.length; index += 4) {

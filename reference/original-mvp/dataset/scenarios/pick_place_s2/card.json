@@ -1,0 +1,22 @@
+{
+ "T": 200,
+ "description": "Pick and place waypoint tour with dwells",
+ "generator": "generate.py v1",
+ "id": "pick_place_s2",
+ "license": "internal demo, no restriction",
+ "real_params": {
+  "bias": [
+   0.08,
+   -0.05
+  ],
+  "dropout_p": 0.02,
+  "sigma": 0.025,
+  "spike": 0.45
+ },
+ "scenario": "pick_place",
+ "seed": 2,
+ "sim_params": {
+  "sigma": 0.01
+ },
+ "source": "synthetic/generator"
+}

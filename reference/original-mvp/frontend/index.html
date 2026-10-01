@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LTTS Physical AI V&amp;V Console</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f7cf6'/%3E%3Cpath d='M9 16.5l5 5 9-11' stroke='white' stroke-width='3.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="side-brand"><img class="side-logo" src="/assets/ltts-stacked-white.png" alt="L and T Technology Services"><b>LTTS V&amp;V</b><span>Physical AI console</span></div>
+    <div class="side-label">Console</div>
+    <nav class="side-nav">
+      <a href="/" class="active">Dashboard</a>
+      <a href="/docs">Documentation</a>
+      <a href="/compliance">Compliance</a>
+      <a href="/evidence">Evidence</a>
+    </nav>
+    <div class="side-foot">Module 1 · v1.0 · DRAFT</div>
+  </aside>
+  <div class="main">
+<header class="topbar">
+  <div class="brand">
+    <div>
+      <h1>LTTS Physical AI V&amp;V Console</h1>
+      <p>Policy verification · trust scorecards · provenance ledger</p>
+    </div>
+  </div>
+  <div class="envpill" id="envPill" title="Engine status"><span class="dot"></span><span id="envText">checking…</span></div>
+</header>
+
+<main>
+<section class="statstrip" id="statStrip" aria-label="Corpus at a glance">
+  <div class="stat"><b id="stReal">-</b><span>real pairs</span></div>
+  <div class="stat"><b id="stTotal">-</b><span>total pairs</span></div>
+  <div class="stat"><b id="stSamples">-</b><span>upload samples</span></div>
+  <div class="stat"><b id="stLedger">-</b><span>ledger entries</span></div>
+</section>
+  <!-- REAL DATA FIRST: what the CTO sees on landing -->
+  <section class="panel wide" id="evRealPanel">
+    <h2>Real data, scored live <span class="tag">open-source DROID pairs · commanded vs executed</span></h2>
+    <p id="evCounts" class="muted small loading">Loading corpus… (needs the server: keep START.cmd open)</p>
+    <div class="row">
+      <label>Pair <select id="evPairSelect"></select></label>
+      <button id="evPairBtn" class="primary">Score real pair</button>
+    </div>
+    <div id="evVerdict" class="verdict idle" role="status">No run yet · pick a pair and hit Score.</div>
+    <div id="evMeta" class="meta muted small"></div>
+    <table id="evGates">
+      <thead><tr><th>Metric</th><th>Value</th><th>Gate</th><th>What it measures</th></tr></thead>
+      <tbody><tr><td colspan="4" class="muted">Scores appear here.</td></tr></tbody>
+    </table>
+    <canvas id="evPlot" width="640" height="260"></canvas>
+  </section>
+
+  <section class="panel wide" id="evUploadPanel">
+    <h2>Upload your batch <span class="tag">alpha ratio + drift, live from your file</span></h2>
+    <div class="row">
+      <label>Batch file <input id="evFile" type="file" accept=".json,application/json"></label>
+      <button id="evAuditBtn" class="primary">Audit upload</button>
+    </div>
+    <p class="muted small">No file handy? One-click samples (each names its demo):</p>
+    <div id="evSamples" class="row"></div>
+    <div id="evOut" class="live-out"></div>
+  </section>
+
+<div class="grid">
+  <!-- LEFT: controls -->
+  <section class="panel" id="controlPanel">
+    <h2>1 · Pick a policy</h2>
+    <div id="policyList" class="policies">
+      <p class="muted loading">Loading policies… (needs the server: double-click START.cmd)</p>
+    </div>
+    <div class="row">
+      <label>Seed <input id="seedInput" type="number" value="1" min="0" max="9999"></label>
+      <button id="scoreBtn" class="primary">Score policy</button>
+    </div>
+    <button id="compareBtn" class="ghost">Compare all 4 (the 3-min demo)</button>
+
+    <h2>2 · Break it <span class="tag">Module-2 lite</span></h2>
+    <p class="muted small">Ramp noise until the verdict flips. Finds the policy's breaking point.</p>
+    <div class="row">
+      <label>From <input id="sweepFrom" type="number" value="1" step="0.5" min="0.1"></label>
+      <label>To <input id="sweepTo" type="number" value="8" step="0.5" max="30"></label>
+      <button id="sweepBtn">Sweep</button>
+    </div>
+    <div id="sweepOut" class="sweep"></div>
+
+    <h2>Hunt edge cases <span class="tag">falsification</span></h2>
+    <p class="muted small">Searches command disturbance space for the smallest push that breaks the policy.</p>
+    <button id="huntBtn">Hunt breaking disturbance</button>
+    <div id="huntOut" class="sweep"></div>
+  </section>
+
+  <!-- CENTER: verdict + evidence -->
+  <section class="panel" id="resultPanel">
+    <h2>3 · Verdict <span class="tag">fail-closed · worst gate wins</span></h2>
+    <div id="verdict" class="verdict idle" role="status">No run yet · pick a policy and hit Score.</div>
+    <div id="meta" class="meta muted small"></div>
+    <h2>Evidence <span class="tag">DRAFT gates</span></h2>
+    <table id="metricTable">
+      <thead><tr><th>Metric</th><th>Value</th><th>Gate</th><th>What it measures</th></tr></thead>
+      <tbody><tr><td colspan="4" class="muted">Scores appear here.</td></tr></tbody>
+    </table>
+    <h2>Paths <span class="tag">commanded vs executed</span></h2>
+    <canvas id="plot" width="640" height="300"></canvas>
+    <div class="row">
+      <button id="exportBtn" class="ghost" disabled>Export scorecard JSON</button>
+    </div>
+    <div id="compareGrid" class="compare"></div>
+  </section>
+
+  <!-- RIGHT: governance + provenance -->
+  <aside class="panel" id="govPanel">
+    <h2>Compliance &amp; Standards</h2>
+    <ul class="standards muted">
+      <li>ISO 25785-1 (humanoid safety · draft)</li>
+      <li>ISO 13849 (safety of machinery)</li>
+      <li>IEC 61508 (functional safety)</li>
+    </ul>
+    <h2>Provenance <span class="tag">hash-chained</span></h2>
+    <div id="ledgerFeed" class="ledger"><p class="muted">Loading…</p></div>
+    <h2>Run history</h2>
+    <div id="historyFeed" class="ledger"><p class="muted">Loading…</p></div>
+  </aside>
+</div>
+</main>
+
+<footer>
+  <span>LTTS Physical AI V&amp;V Console · thresholds DRAFT until OXE calibration · jerk/bounds rows are proxies, not dynamics proofs</span>
+  <span class="muted">deterministic · stdlib-only · every run ledger-chained · <span class="build">console v1.0 · 30 Sep 2026</span></span>
+</footer>
+  </div>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>

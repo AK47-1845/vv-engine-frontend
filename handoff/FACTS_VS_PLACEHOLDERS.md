@@ -15,3 +15,11 @@
 - Team biography, pilot contact destination and a 90-second recorded demo require [REPLACE] content.
 - Regulatory mappings support evidence organization; they are not legal advice or certification.
 - Lighthouse >=95, LCP <2s and 60fps are targets until measured under a documented configuration.
+
+## Final Measured Facts
+
+- VERIFIED: Next.js production build succeeds; routes /, /privacy, /icon and /opengraph-image are prerendered.
+- VERIFIED: Five pure-model tests pass. Five target widths and the listed browser workflows were tested; final consolidated suite receipt is recorded in STATUS.md.
+- VERIFIED: Final Lighthouse 13.5.0 scores: desktop 99/100/100/100, mobile 77/100/100/100. LCP desktop 696 ms, mobile 3515 ms. CLS desktop 0.000058, mobile 0.000140. These are local lab results, not hosted or field measurements.
+- VERIFIED: Nonblank/moving graphics at 1440 and 390; no page errors/overflow in the canvas probe. Mobile uses the documented lightweight rendering path by default.
+- UNVERIFIED: Sustained 60fps and performance on actual mobile hardware. No award, agency valuation or independent design-quality assessment is claimed.

@@ -1,0 +1,27 @@
+{
+ "T": 200,
+ "description": "Straight slide with friction stick mid path",
+ "generator": "generate.py v1",
+ "id": "contact_slide_s2",
+ "license": "internal demo, no restriction",
+ "real_params": {
+  "bias": [
+   0.05,
+   -0.03
+  ],
+  "dropout_p": 0.01,
+  "sigma": 0.02,
+  "spike": 0.4,
+  "stick": [
+   0.35,
+   0.65,
+   0.5
+  ]
+ },
+ "scenario": "contact_slide",
+ "seed": 2,
+ "sim_params": {
+  "sigma": 0.01
+ },
+ "source": "synthetic/generator"
+}

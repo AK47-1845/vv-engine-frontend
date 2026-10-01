@@ -1,0 +1,141 @@
+[
+  {
+    "preset": "mobile",
+    "capturedAt": "2026-10-01T11:02:28.270Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 77,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "lcpMs": 3515.1028,
+    "cls": 0.0001398431366340492,
+    "tbtMs": 451.1838,
+    "issues": [
+      {
+        "id": "largest-contentful-paint",
+        "score": 0.63,
+        "displayValue": "3.5 s",
+        "title": "Largest Contentful Paint"
+      },
+      {
+        "id": "speed-index",
+        "score": 0.75,
+        "displayValue": "4.3 s",
+        "title": "Speed Index"
+      },
+      {
+        "id": "total-blocking-time",
+        "score": 0.63,
+        "displayValue": "450 ms",
+        "title": "Total Blocking Time"
+      },
+      {
+        "id": "max-potential-fid",
+        "score": 0.28,
+        "displayValue": "340 ms",
+        "title": "Max Potential First Input Delay"
+      },
+      {
+        "id": "mainthread-work-breakdown",
+        "score": 0,
+        "displayValue": "3.7 s",
+        "title": "Minimize main-thread work"
+      },
+      {
+        "id": "bootup-time",
+        "score": 0,
+        "displayValue": "1.8 s",
+        "title": "Reduce JavaScript execution time"
+      },
+      {
+        "id": "unused-javascript",
+        "score": 0,
+        "displayValue": "Est savings of 85 KiB",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "score": 0,
+        "title": "Forced reflow"
+      },
+      {
+        "id": "image-delivery-insight",
+        "score": 0,
+        "displayValue": "Est savings of 37 KiB",
+        "title": "Improve image delivery"
+      },
+      {
+        "id": "legacy-javascript-insight",
+        "score": 0,
+        "displayValue": "Est savings of 13 KiB",
+        "title": "Legacy JavaScript"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "score": 0,
+        "title": "Network dependency tree"
+      },
+      {
+        "id": "render-blocking-insight",
+        "score": 0,
+        "displayValue": "Est savings of 150 ms",
+        "title": "Render-blocking requests"
+      }
+    ]
+  },
+  {
+    "preset": "desktop",
+    "capturedAt": "2026-10-01T11:02:44.291Z",
+    "lighthouseVersion": "13.5.0",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "lcpMs": 696.0409500000001,
+    "cls": 0.00005777354570637119,
+    "tbtMs": 86,
+    "issues": [
+      {
+        "id": "valid-source-maps",
+        "score": 0,
+        "title": "Missing source maps for large first-party JavaScript"
+      },
+      {
+        "id": "label-content-name-mismatch",
+        "score": 0,
+        "title": "Elements with visible text labels do not have matching accessible names."
+      },
+      {
+        "id": "unused-javascript",
+        "score": 0,
+        "displayValue": "Est savings of 133 KiB",
+        "title": "Reduce unused JavaScript"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "score": 0,
+        "title": "Forced reflow"
+      },
+      {
+        "id": "legacy-javascript-insight",
+        "score": 0,
+        "displayValue": "Est savings of 13 KiB",
+        "title": "Legacy JavaScript"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "score": 0,
+        "title": "Network dependency tree"
+      },
+      {
+        "id": "render-blocking-insight",
+        "score": 0.5,
+        "title": "Render-blocking requests"
+      }
+    ]
+  }
+]

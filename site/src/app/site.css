@@ -10,3 +10,4 @@
 .hero{min-height:620px}.hero .scene-poster{position:absolute;left:20%;width:80%;height:100%;object-fit:contain}
 @media(max-height:800px) and (min-width:768px){.hero-content{padding-top:40px}.hero h1{font-size:76px}.hero-copy{margin-top:22px}.hero-description{margin-top:10px}.hero-actions{margin-top:22px}.hero-note{margin-top:18px}}
 @media(max-width:767px){.hero .scene-poster{left:0;width:100%}}
+.lite-scene canvas{position:absolute;inset:0;object-fit:contain;pointer-events:none}.scene-upgrade{position:absolute;bottom:10px;left:20px;display:flex;gap:7px;align-items:center;border:1px solid #3b5149;border-radius:3px;padding:7px 10px;background:#0c0f10;color:#c6ded0;font-size:9px;z-index:3}.lite-scene .scene-poster{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}

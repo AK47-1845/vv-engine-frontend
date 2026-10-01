@@ -5,3 +5,5 @@
 - 2026-10-01: This Next 16.3 local-font resolver rejected ../../../node_modules as leaving the filesystem root. ../../node_modules paths compiled successfully. Do not reintroduce the failing path.
 - 2026-10-01: First browser check confirmed nonblank and moving desktop/mobile canvas, but mobile hero height 836px misses the requested next-section glimpse. Geometry success alone is not compositional acceptance.
 - 2026-10-01: Axe found insufficient contrast in light-paper ledger labels and report metadata. Darken the actual text colors; do not exclude the report from the accessibility scan.
+- 2026-10-01: Production Lighthouse found mobile performance 59 despite desktop 100. Removing initial mobile WebGL and deferring desktop-only scroll libraries improved mobile to 81 while preserving a live 2D trace and opt-in 3D. Keep the first reports; do not equate desktop performance with mobile acceptance.
+- 2026-10-01: Live hero telemetry can rerender static Radix dialog trees. Memoization is justified at these measured static-action boundaries; do not add useMemo/useCallback broadly without profiling.

@@ -4,9 +4,11 @@ You are continuing Genuity Verify. Read handoff/README.md, then handoff/STATUS.m
 
 Do not rewrite working code. Preserve the existing backend and Vite console. Never turn synthetic examples or [REPLACE] placeholders into real traction, safety, certification or hardware claims. Do not publish externally or collect contact data without authorization.
 
-At this initial checkpoint, the next three tasks are:
-1. Complete bounded reference research and scaffold the separate Next.js pitch site.
-2. Build hero, failure injection and pipeline before secondary sections; test each locally.
-3. Verify production build and screenshots, then reconcile every handoff file against the actual state.
+The pitch site is built. Do not scaffold it again. Start from `site/src/components/Pitch.tsx` and the committed lockfile. Use Node 24.18.0. From the project root, run `npm.cmd --prefix site ci`, then `npm.cmd --prefix site run dev -- --hostname 127.0.0.1 --port 5190`.
 
-This prompt must be updated at the final checkpoint with the real remaining tasks and exact paths.
+The exact next three tasks are:
+1. Reproduce and improve mobile performance. Read `design-intel/performance/mobile.json` and BACKLOG.md P0. The final score was 77, not 95. Reduce initial hydration/main-thread work without deleting visible product content or weakening measurement. Preserve the existing poster/2D mobile trace and opt-in 3D. Build and rerun the same Lighthouse script on production port 5191.
+2. Ask the user for the actual public pilot-contact destination, recording, approved biography and verified pilot facts. Replace only confirmed placeholders in `site/src/components/Actions.tsx`, `ContextSections.tsx` and `site/src/app/privacy/page.tsx`. Do not pretend the current local draft form submits.
+3. Repair the remaining interaction advisories, then run `npm.cmd --prefix site test`, `npm.cmd --prefix site run lint`, `npm.cmd --prefix site run test:browser`, and `node site/tests/capture.mjs`. Review five-width screenshots. Update handoff status, known issues, graph and exact receipts. Publish only with explicit user authorization.
+
+The original backend and console remain separate. A frontend demonstration does not certify a robot or make the engineering backend production-qualified. The older graphify snapshot is historical; use handoff/knowledge-graph.json for the current frontend structure.

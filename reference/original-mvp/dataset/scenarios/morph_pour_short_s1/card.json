@@ -1,0 +1,15 @@
+{
+ "T": 472,
+ "description": "Synthetic cross-kinematic proxy: 0.55x short-arm replay of droid_pour_s1. NOT real data.",
+ "generator": "tools/make_samples.py v2",
+ "id": "morph_pour_short_s1",
+ "license": "synthetic, same as generator set",
+ "morph_of": "droid_pour_s1",
+ "scenario": "morph_proxy (SYNTHETIC)",
+ "seed": 0,
+ "seed_note": "derived from a real capture, fixed",
+ "source": "synthetic/tools/make_samples.py v2",
+ "transforms": [
+  "x*0.55+0.10, y*0.55+0.05 applied to sim and real"
+ ]
+}

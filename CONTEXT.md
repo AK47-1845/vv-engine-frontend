@@ -1,5 +1,9 @@
 # Start Here: Durable Project Context
 
+## Latest Priority: 2026-10-01 Frontend Sprint
+
+The user changed the immediate deliverable to a 60-minute frontend-first Next.js marketing/product-story site. Read `handoff/README.md` and `handoff/STATUS.md` first. The site is in `site/`, separate from the preserved `web/` console and `backend/`. Final mobile performance remains below target; public launch placeholders and hardware qualification remain open. The earlier checkpoint below is historical, not the current completion state.
+
 ## User Goal
 
 Build a substantial Genuity Verify physical-AI verification, validation, and governance application for an LTTS CTO demonstration and future deployment. Preserve source grounding, a knowledge graph, procedural graphs, design decisions, and a practical operations guide.

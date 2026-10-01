@@ -1,0 +1,49 @@
+[
+  {
+    "source": "Genesis of Physical AI ( Handwritten ).pdf",
+    "sha256": "b6ca062b7b5707ac2844c809c2051203c53b86d9cfb93aea5f8e6ee5a4e937e0",
+    "pages": 26,
+    "characters": 61989,
+    "visual_review_pages": [],
+    "extracted_file": "knowledge/source-text/genesis-of-physical-ai-handwritten.md",
+    "extraction": "pypdf; text layer only; no OCR inference"
+  },
+  {
+    "source": "Idea 1.pdf",
+    "sha256": "776fc4fc2d9515d04eda84af3b38e144b7ee389f0d6d5573348208223402f9f3",
+    "pages": 11,
+    "characters": 17309,
+    "visual_review_pages": [],
+    "extracted_file": "knowledge/source-text/idea-1.md",
+    "extraction": "pypdf; text layer only; no OCR inference"
+  },
+  {
+    "source": "Physical AI..pdf",
+    "sha256": "736372af06898381ae8058dc1245217445a59bab965a5ba0dc35e4676ccb9e54",
+    "pages": 16,
+    "characters": 40108,
+    "visual_review_pages": [],
+    "extracted_file": "knowledge/source-text/physical-ai.md",
+    "extraction": "pypdf; text layer only; no OCR inference"
+  },
+  {
+    "source": "Strategic_Blueprint_Physical_AI_Governance.pdf",
+    "sha256": "ef4df10198cd4d2643d785c52734d7014ef4f7b2774af717ef1b28961d3aa59b",
+    "pages": 13,
+    "characters": 23989,
+    "visual_review_pages": [],
+    "extracted_file": "knowledge/source-text/strategic-blueprint-physical-ai-governance.md",
+    "extraction": "pypdf; text layer only; no OCR inference"
+  },
+  {
+    "source": "The_Complete_Evolution_of_Frontier_LLMs (1) (1).pdf",
+    "sha256": "63f475718391f4b93b3851ce8344bbe2ec5e2a349035605ab99f743502e91640",
+    "pages": 48,
+    "characters": 99075,
+    "visual_review_pages": [
+      1
+    ],
+    "extracted_file": "knowledge/source-text/the-complete-evolution-of-frontier-llms-1-1.md",
+    "extraction": "pypdf; text layer only; no OCR inference"
+  }
+]

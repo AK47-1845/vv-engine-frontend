@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compliance · LTTS Physical AI V&amp;V Console</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f7cf6'/%3E%3Cpath d='M9 16.5l5 5 9-11' stroke='white' stroke-width='3.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="side-brand"><img class="side-logo" src="/assets/ltts-stacked-white.png" alt="L and T Technology Services"><b>LTTS V&amp;V</b><span>Physical AI console</span></div>
+    <div class="side-label">Console</div>
+    <nav class="side-nav">
+      <a href="/">Dashboard</a>
+      <a href="/docs">Documentation</a>
+      <a href="/compliance" class="active">Compliance</a>
+      <a href="/evidence">Evidence</a>
+    </nav>
+    <div class="side-foot">Module 1 · v1.0 · DRAFT</div>
+  </aside>
+  <div class="main">
+<header class="topbar">
+  <div class="brand">
+
+    <div>
+      <h1>LTTS Physical AI V&amp;V Console</h1>
+      <p>Policy verification · trust scorecards · provenance ledger</p>
+    </div>
+  </div>
+  <div class="envpill" id="envPill" title="Engine status"><span class="dot"></span><span id="envText">checking…</span></div>
+</header>
+
+<main class="doc-grid prose">
+  <div>
+    <h2 class="page-title">Compliance timeline</h2>
+    <p class="page-sub">Regulations and standards this console is built to serve. Dates are static reference, not live clocks.</p>
+  </div>
+
+  <section class="panel">
+    <h3>Why compliance is the forcing function</h3>
+    <p>Safety regulation is what turns verification from a nice to have into a purchased product. Once third party assessment is mandatory, robot makers must buy testing the way drug makers buy clinical trials. Insurers come next: they cannot price policies without failure data. This console produces the artifacts both sides ask for: objective test records, uncertainty numbers, and tamper evident run history.</p>
+  </section>
+
+  <section class="panel">
+    <h3>Upcoming requirements in detail</h3>
+    <div class="fixture">
+      <h4>EU Machinery Regulation 2023/1230, Item 24 <span class="badge green">Verified</span></h4>
+      <p><b>What:</b> from 2027-01-20, Notified Body assessment is mandatory for self evolving AI in safety functions (Annex I, Part A, Item 24).</p>
+      <p><b>Who it hits:</b> any maker placing adaptive safety related AI into EU machinery.</p>
+      <p class="muted"><b>Evidence it demands:</b> objective conformity records from a competent assessment, with Notified Body queues already reported at 6 to 12 months.</p>
+    </div>
+    <div class="fixture">
+      <h4>OTA substantial modification rule <span class="badge green">Verified</span></h4>
+      <p><b>What:</b> a safety shifting over the air update counts as a substantial modification, which triggers re-assessment plus a new CE mark.</p>
+      <p><b>Who it hits:</b> every vendor that updates robot software after sale, which is everyone.</p>
+      <p class="muted"><b>Evidence it demands:</b> per update test records. Certifying once is not enough. Each release needs fresh evidence, which is exactly what a deterministic re scoring engine plus a run ledger produce.</p>
+    </div>
+    <div class="fixture">
+      <h4>Frozen weights nuance <span class="badge amber">Reported</span></h4>
+      <p><b>What:</b> systems with frozen weights may still self assess, so the mandate bites hardest on learning and self evolving systems plus OTA updated fleets.</p>
+      <p class="muted"><b>Why it matters:</b> it draws the market boundary. Static controllers stay light touch. Adaptive policies and continuously deployed fleets need full verification.</p>
+    </div>
+    <div class="fixture">
+      <h4>ISO/AWI 25785-1, humanoid safety <span class="badge amber">Reported</span></h4>
+      <p><b>What:</b> the humanoid safety standard under TC 299/WG 12, currently an unpublished industrial scope draft, with publication expected late 2026 or 2027.</p>
+      <p class="muted"><b>Why it matters:</b> it will demand purpose built test methods for humanoid kinematics and neural policies. No owner exists yet for the ML native verification layer, which is the gap this console targets.</p>
+    </div>
+    <div class="fixture">
+      <h4>ISO 13849 and IEC 61508 (in force)</h4>
+      <p><b>What:</b> the standing safety of machinery and functional safety standards behind safety dossiers.</p>
+      <p class="muted"><b>Evidence they demand:</b> structured safety cases with quantitative backing. The Module 3 dossier compiler aims straight at this output format.</p>
+    </div>
+    <div class="fixture">
+      <h4>AI Act timeline for embedded systems <span class="badge amber">Reported</span></h4>
+      <p><b>What:</b> embedded AI Act obligations phase in toward August 2028.</p>
+      <p class="muted"><b>Why it matters:</b> a second regulatory clock behind the machinery regulation, widening the set of systems that need documented verification.</p>
+    </div>
+    <div class="fixture">
+      <h4>TIC licensing precedents <span class="badge amber">Reported</span></h4>
+      <p><b>What:</b> testing houses are already productizing AI assurance, with programs across AI/TUV NORD, TR/NVIDIA plus Fennec style efforts, and AIQURIS style tooling.</p>
+      <p class="muted"><b>Why it matters:</b> it proves the buyer side is forming, and it sets the partnership path. LTTS can supply the ML native test layer under TIC brands.</p>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h3>How this MVP bridges the gap</h3>
+    <p>Each row below pairs one demand from the list above with what this console already does about it. Short version: the scorecard produces the test records, the sweep produces the breaking points, and the ledger makes both auditable.</p>
+    <table>
+      <thead><tr><th>Requirement</th><th>Console answers with</th><th>Evidence artifact</th></tr></thead>
+      <tbody>
+        <tr><td>NB assessment needs objective test records</td><td class="desc">8 metric scorecards with pass/fail gates</td><td class="desc">Scorecard JSON (download one live below)</td></tr>
+        <tr><td>OTA updates need per release evidence</td><td class="desc">Deterministic re scoring: same seed gives identical numbers</td><td class="desc">Ledger history plus history API</td></tr>
+        <tr><td>Robustness claims need breaking points</td><td class="desc">Noise sweeps that report the flip level</td><td class="desc">Sweep report with flip point</td></tr>
+        <tr><td>Insurers need uncertainty numbers</td><td class="desc">Inter seed spread metric across 5 rollouts</td><td class="desc">Score JSON spread fields</td></tr>
+        <tr><td>Dossiers need structured safety cases</td><td class="desc">Module 3 compiler (roadmap, not in this MVP)</td><td class="desc">Planned: ISO 13849/IEC 61508 dossiers</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="panel">
+    <h3>Working evidence</h3>
+    <p class="muted">Everything below runs against the live engine on this machine.</p>
+    <div class="row">
+      <button id="verifyLiveBtn">Verify ledger chain now</button>
+      <button id="sampleLiveBtn">Download sample scorecard JSON</button>
+      <button id="dossierLiveBtn">Generate evidence dossier</button>
+    </div>
+    <div id="verifyLiveOut" class="live-out"></div>
+    <div id="sampleLiveOut" class="live-out"></div>
+    <div id="dossierLiveOut" class="live-out"></div>
+    <p class="muted small">Then open the <a href="/">Dashboard</a> and press Compare all 4 for the full pitch demo.</p>
+  </section>
+
+  <section class="panel">
+    <h3>Calibration status</h3>
+    <p class="muted">Gate values are DRAFT engineering estimates today. Month 1 work calibrates them against public Open X-Embodiment rollout pairs, and the DRAFT label comes off metric by metric. Nothing here pretends to be certified. It pretends to be checkable, which is the step before certified.</p>
+  </section>
+</main>
+
+<footer>
+  <span>LTTS Physical AI V&amp;V Console · thresholds DRAFT until OXE calibration · jerk/bounds rows are proxies, not dynamics proofs</span>
+  <span class="muted">deterministic · stdlib-only · every run ledger-chained · <span class="build">console v1.0 · 30 Sep 2026</span></span>
+</footer>
+  </div>
+</div>
+<script src="/compliance.js"></script>
+</body>
+</html>

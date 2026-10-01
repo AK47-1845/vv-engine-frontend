@@ -8,3 +8,10 @@ knowledge/source-manifest.json
 knowledge/semantic-sources.json
 uv.lock
 web/package-lock.json
+site/node_modules/**
+site/.next/**
+site/test-results/**
+site/package-lock.json
+design-intel/screenshots/**
+design-intel/build-shots/**
+design-intel/performance/**

@@ -14,7 +14,10 @@ export default function RobotScene({ failure = 'nominal', hero = false, paused =
     if (!element) return;
     let renderer: THREE.WebGLRenderer;
     try { renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, preserveDrawingBuffer: true, powerPreference: 'low-power' }); }
-    catch { setFailed(true); return; }
+    catch {
+      const failureFrame = requestAnimationFrame(() => setFailed(true));
+      return () => cancelAnimationFrame(failureFrame);
+    }
     renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
     renderer.setClearColor('#0c0f10', 0);
     renderer.outputColorSpace = THREE.SRGBColorSpace;

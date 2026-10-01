@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evidence - LTTS Physical AI V&amp;V Console</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232f7cf6'/%3E%3Cpath d='M9 16.5l5 5 9-11' stroke='white' stroke-width='3.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="side-brand"><img class="side-logo" src="/assets/ltts-stacked-white.png" alt="L and T Technology Services"><b>LTTS V&amp;V</b><span>Physical AI console</span></div>
+    <div class="side-label">Console</div>
+    <nav class="side-nav">
+      <a href="/">Dashboard</a>
+      <a href="/docs">Documentation</a>
+      <a href="/compliance">Compliance</a>
+      <a href="/evidence" class="active">Evidence</a>
+    </nav>
+    <div class="side-foot">Module 1 · v1.0 · DRAFT</div>
+  </aside>
+  <div class="main">
+<header class="topbar">
+  <div class="brand">
+
+    <div>
+      <h1>LTTS Physical AI V&amp;V Console</h1>
+      <p>Real-data evidence · upload + batch governance · collapse watch</p>
+    </div>
+  </div>
+  <div class="envpill" id="envPill" title="Engine status"><span class="dot"></span><span id="envText">checking…</span></div>
+</header>
+
+<main class="doc-grid">
+  <div>
+    <h2 class="page-title">Evidence, on real data</h2>
+    <p class="page-sub">Every number below is recomputed live from curated pairs or your upload, then ledger-chained.</p>
+  </div>
+
+  <section class="panel prose">
+    <h3>1 · Real-data corpus <span class="tag">open-source · provenance on each row</span></h3>
+    <p id="corpusCounts" class="muted small loading">Loading corpus… (needs the server: keep START.cmd open)</p>
+    <table id="corpusTable">
+      <thead><tr><th>Dataset</th><th>Kind</th><th>T</th><th>Source</th><th></th></tr></thead>
+      <tbody><tr><td colspan="5" class="muted">Loading…</td></tr></tbody>
+    </table>
+    <p class="muted small">Synthetic pairs carry the documented degradation stack. Morph pairs are synthetic cross-kinematic proxies, labeled as such.</p>
+  </section>
+
+  <section class="panel prose">
+    <h3>2 · Sim-to-real gap <span class="tag">Frechet · Idea 1 vector 1</span></h3>
+    <p>Pick any pair: commanded path vs executed path, same DRAFT gates as the policy engine.</p>
+    <div class="row">
+      <label>Pair <select id="pairSelect"></select></label>
+      <button id="pairScoreBtn" class="primary">Score pair</button>
+    </div>
+    <div id="pairVerdict" class="verdict idle" role="status">No run yet.</div>
+    <div id="pairMeta" class="meta muted small"></div>
+    <table id="pairGates">
+      <thead><tr><th>Metric</th><th>Value</th><th>Gate</th><th>What it measures</th></tr></thead>
+      <tbody><tr><td colspan="4" class="muted">Scores appear here.</td></tr></tbody>
+    </table>
+    <h3>Paths <span class="tag">commanded vs executed</span></h3>
+    <canvas id="pairPlot" width="640" height="300"></canvas>
+  </section>
+
+  <section class="panel prose">
+    <h3>3 · Cross-embodiment <span class="tag">Idea 1 vector 5 · DRAFT bands</span></h3>
+    <p>Shape-normalized Frechet between two executed paths. Baseline first: two real Franka episodes. Then real vs morph proxy. Real OXE WidowX/RT-1 pairs plug into this same endpoint in Month 1.</p>
+    <div class="row">
+      <label>A <select id="xembA"></select></label>
+      <label>B <select id="xembB"></select></label>
+      <button id="xembBtn" class="primary">Compare</button>
+    </div>
+    <div id="xembOut" class="live-out"></div>
+  </section>
+
+  <section class="panel prose" id="upload">
+    <h3>4 · Upload a batch <span class="tag">alpha ratio · Idea 1 vector 2</span></h3>
+    <p>Drop a batch file: per-episode source tags (real/synthetic) plus commanded and executed paths. The console reports the alpha ratio, per-source drift, a governance verdict, and collapse risk. Format: <code>{"episodes": [{"id", "source", "generation", "sim", "real"}]}</code> · max 40 episodes, 3 MB.</p>
+    <div class="row">
+      <label>Batch file <input id="batchFile" type="file" accept=".json,application/json"></label>
+      <button id="batchBtn" class="primary">Audit upload</button>
+    </div>
+    <p class="muted small">No file handy? One-click samples (each names its demo):</p>
+    <div id="sampleBtns" class="row"></div>
+    <div id="batchOut" class="live-out"></div>
+  </section>
+
+  <section class="panel prose">
+    <h3>5 · Model collapse curve <span class="tag">illustration · simulated</span></h3>
+    <p>Recursive resampling illustration: each synthetic generation refits from the last. Diversity collapses within a few generations. This is a simulation of the mechanism, not a policy training run.</p>
+    <div class="row">
+      <button id="collapseBtn">Run collapse illustration</button>
+    </div>
+    <div id="collapseOut" class="live-out"></div>
+  </section>
+
+  <section class="panel prose">
+    <h3>6 · Live demo guide <span class="tag">which dataset for which demo</span></h3>
+    <table id="guideTable">
+      <thead><tr><th>Demo</th><th>Use this</th><th>Expected</th><th>Why</th></tr></thead>
+      <tbody><tr><td colspan="4" class="muted">Loading…</td></tr></tbody>
+    </table>
+  </section>
+</main>
+
+<footer>
+  <span>LTTS Physical AI V&amp;V Console · thresholds DRAFT until OXE calibration · jerk/bounds rows are proxies, not dynamics proofs</span>
+  <span class="muted">deterministic · stdlib-only · every run ledger-chained · <span class="build">console v1.0 · 30 Sep 2026</span></span>
+</footer>
+  </div>
+</div>
+<script src="/evidence.js"></script>
+</body>
+</html>

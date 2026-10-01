@@ -1,0 +1,22 @@
+{
+ "T": 200,
+ "description": "Curve with strong sim to real bias ramp",
+ "generator": "generate.py v1",
+ "id": "bias_drift_s3",
+ "license": "internal demo, no restriction",
+ "real_params": {
+  "bias": [
+   0.3,
+   -0.2
+  ],
+  "dropout_p": 0.01,
+  "sigma": 0.02,
+  "spike": 0.4
+ },
+ "scenario": "bias_drift",
+ "seed": 3,
+ "sim_params": {
+  "sigma": 0.01
+ },
+ "source": "synthetic/generator"
+}
