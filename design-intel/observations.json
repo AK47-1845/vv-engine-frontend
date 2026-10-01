@@ -1,0 +1,2828 @@
+[
+  {
+    "name": "linear",
+    "url": "https://linear.app",
+    "capturedAt": "2026-10-01T10:18:59.214Z",
+    "viewports": [
+      {
+        "width": 1440,
+        "title": "Linear – The system for product development",
+        "url": "https://linear.app/",
+        "elements": [
+          {
+            "selector": "body",
+            "text": "((e, i, s, u, m, a, l, h) => {\n\tlet d = document.documentElement, w = [\"light\", \"dark\"];\n\tfunction p",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "16px",
+            "lineHeight": "24px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(247, 248, 248)",
+            "background": "rgb(8, 9, 10)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h1",
+            "text": "The product development system for teams and agentsThe product developmentsystem for teams and agent",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "64px",
+            "lineHeight": "64px",
+            "weight": "510",
+            "tracking": "-1.408px",
+            "color": "rgb(247, 248, 248)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h2",
+            "text": "A new species of product tool. Purpose-built for modern teams with AI workflows at its core, Linear ",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "48px",
+            "lineHeight": "48px",
+            "weight": "510",
+            "tracking": "-1.056px",
+            "color": "rgb(138, 143, 152)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px 32px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "nav",
+            "text": "ProductResourcesCustomersPricingNowContactDocsOpen appLog inSign up",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "16px",
+            "lineHeight": "24px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(247, 248, 248)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "a",
+            "text": "Skip to content →",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "14px",
+            "lineHeight": "21px",
+            "weight": "510",
+            "tracking": "normal",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(94, 106, 210)",
+            "padding": "0px 16px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "fixed"
+          },
+          {
+            "selector": "button",
+            "text": "Product",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "13px",
+            "lineHeight": "19.5px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(138, 143, 152)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px 12px",
+            "gap": "normal",
+            "easing": "cubic-bezier(0.25, 0.46, 0.45, 0.94)",
+            "duration": "0.1s",
+            "position": "relative"
+          }
+        ],
+        "tokens": [
+          [
+            "--sx-ljw4h1",
+            ""
+          ],
+          [
+            "--editor-block-spacing-large",
+            "calc(1.375 * 1rem)"
+          ],
+          [
+            "--header-height",
+            "72px"
+          ],
+          [
+            "--btn-overlay-shadow-hover",
+            "none"
+          ],
+          [
+            "--sx-18pfyxa",
+            "6px 12px"
+          ],
+          [
+            "--editor-todolist-checkbox-width",
+            "14px"
+          ],
+          [
+            "--zoom-in",
+            "zoom-in"
+          ],
+          [
+            "--font-variations",
+            "\"opsz\" auto"
+          ],
+          [
+            "--text-large-line-height",
+            "1.6"
+          ],
+          [
+            "--sx-1stx5uy",
+            ""
+          ],
+          [
+            "--sx-1urpf9d",
+            ""
+          ],
+          [
+            "--color-overlay-dim-rgb",
+            "255, 255, 255"
+          ],
+          [
+            "--title-1-line-height",
+            "1.4"
+          ],
+          [
+            "--sx-7ide1",
+            ""
+          ],
+          [
+            "--text-micro-size",
+            ".75rem"
+          ],
+          [
+            "--font-size-title1",
+            "2.25rem"
+          ],
+          [
+            "--sx-1ijrdvx",
+            ""
+          ],
+          [
+            "--font-settings",
+            "\"cv01\", \"ss03\""
+          ],
+          [
+            "--sx-1uv3w6h",
+            ""
+          ],
+          [
+            "--ease-out-quad",
+            "cubic-bezier(.25, .46, .45, .94)"
+          ],
+          [
+            "--title-3-letter-spacing",
+            "-.012em"
+          ],
+          [
+            "--editor-block-menu-size",
+            "20px"
+          ],
+          [
+            "--speed-highlightFadeOut",
+            ".15s"
+          ],
+          [
+            "--sx-138rywl",
+            "13vh"
+          ],
+          [
+            "--editor-last-invisible-paragraph-spacing",
+            "10px"
+          ],
+          [
+            "--sx-138kmyo",
+            ""
+          ],
+          [
+            "--sx-1ltkoa",
+            ""
+          ],
+          [
+            "--title-9-line-height",
+            "1"
+          ],
+          [
+            "--color-text-secondary",
+            "#d0d6e0"
+          ],
+          [
+            "--scrollbar-size-active",
+            "10px"
+          ],
+          [
+            "--sx-1mc3c6y",
+            ""
+          ],
+          [
+            "--sx-1dcvabv",
+            ""
+          ],
+          [
+            "--color-text-tertiary",
+            "#8a8f98"
+          ],
+          [
+            "--cursor-disabled",
+            "not-allowed"
+          ],
+          [
+            "--layer-tooltip",
+            "1100"
+          ],
+          [
+            "--font-emoji",
+            "\"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Segoe UI\", \"Twemoji Mozilla\", \"Noto Color Emoji\", \"Android Emoji\""
+          ],
+          [
+            "--ease-in-out-quart",
+            "cubic-bezier(.77, 0, .175, 1)"
+          ],
+          [
+            "--text-mini-letter-spacing",
+            "-.01em"
+          ],
+          [
+            "--sx-91u3ar",
+            ""
+          ],
+          [
+            "--sx-18yrgu8",
+            ""
+          ],
+          [
+            "--sx-18uyzu6",
+            ""
+          ],
+          [
+            "--sx-ot17o6",
+            ""
+          ],
+          [
+            "--text-regular-size",
+            ".9375rem"
+          ],
+          [
+            "--font-size-miniPlus",
+            ".75rem"
+          ],
+          [
+            "--text-regular-letter-spacing",
+            "-.011em"
+          ],
+          [
+            "--sx-1gm0lru",
+            ""
+          ],
+          [
+            "--icon-replacement-color",
+            ""
+          ],
+          [
+            "--editor-block-spacing-small",
+            "calc(.375 * 1rem)"
+          ],
+          [
+            "--sx-9pdekr",
+            ""
+          ],
+          [
+            "--sx-34xdpc",
+            ""
+          ],
+          [
+            "--sx-1gxylln",
+            ""
+          ],
+          [
+            "--sx-tw6awd",
+            ""
+          ],
+          [
+            "--editor-block-radius",
+            "6px"
+          ],
+          [
+            "--shadow-low",
+            "0px 2px 4px #0000001a"
+          ],
+          [
+            "--font-size-microPlus",
+            ".6875rem"
+          ],
+          [
+            "--color-line-tertiary",
+            "#18191a"
+          ],
+          [
+            "--color-white",
+            "#fff"
+          ],
+          [
+            "--sx-kthb5v",
+            ""
+          ],
+          [
+            "--text-tiny",
+            ".625rem / 1.5 \"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Open Sans\", \"Helvetica Neue\", sans-serif"
+          ],
+          [
+            "--sx-183dfpr",
+            ""
+          ]
+        ],
+        "scrollBehavior": "auto"
+      },
+      {
+        "width": 390,
+        "title": "Linear – The system for product development",
+        "url": "https://linear.app/",
+        "elements": [
+          {
+            "selector": "body",
+            "text": "((e, i, s, u, m, a, l, h) => {\n\tlet d = document.documentElement, w = [\"light\", \"dark\"];\n\tfunction p",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "16px",
+            "lineHeight": "24px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(247, 248, 248)",
+            "background": "rgb(8, 9, 10)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h1",
+            "text": "The product development system for teams and agentsThe product developmentsystem for teams and agent",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "38px",
+            "lineHeight": "41.8px",
+            "weight": "510",
+            "tracking": "-0.836px",
+            "color": "rgb(247, 248, 248)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h2",
+            "text": "A new species of product tool. Purpose-built for modern teams with AI workflows at its core, Linear ",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "24px",
+            "lineHeight": "31.92px",
+            "weight": "510",
+            "tracking": "-0.288px",
+            "color": "rgb(138, 143, 152)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px 8px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "nav",
+            "text": "ProductResourcesCustomersPricingNowContactDocsOpen appLog inSign up",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "16px",
+            "lineHeight": "24px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(247, 248, 248)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "a",
+            "text": "Skip to content →",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "14px",
+            "lineHeight": "21px",
+            "weight": "510",
+            "tracking": "normal",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(94, 106, 210)",
+            "padding": "0px 16px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "fixed"
+          },
+          {
+            "selector": "button",
+            "text": "",
+            "font": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+            "size": "16px",
+            "lineHeight": "24px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(247, 248, 248)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          }
+        ],
+        "tokens": [
+          [
+            "--sx-ljw4h1",
+            ""
+          ],
+          [
+            "--editor-block-spacing-large",
+            "calc(1.375 * 1rem)"
+          ],
+          [
+            "--header-height",
+            "64px"
+          ],
+          [
+            "--btn-overlay-shadow-hover",
+            "none"
+          ],
+          [
+            "--sx-18pfyxa",
+            "6px 12px"
+          ],
+          [
+            "--editor-todolist-checkbox-width",
+            "14px"
+          ],
+          [
+            "--zoom-in",
+            "zoom-in"
+          ],
+          [
+            "--font-variations",
+            "\"opsz\" auto"
+          ],
+          [
+            "--text-large-line-height",
+            "1.6"
+          ],
+          [
+            "--sx-1stx5uy",
+            ""
+          ],
+          [
+            "--sx-1urpf9d",
+            ""
+          ],
+          [
+            "--color-overlay-dim-rgb",
+            "255, 255, 255"
+          ],
+          [
+            "--title-1-line-height",
+            "1.4"
+          ],
+          [
+            "--sx-7ide1",
+            ""
+          ],
+          [
+            "--text-micro-size",
+            ".75rem"
+          ],
+          [
+            "--font-size-title1",
+            "2.25rem"
+          ],
+          [
+            "--sx-1ijrdvx",
+            ""
+          ],
+          [
+            "--font-settings",
+            "\"cv01\", \"ss03\""
+          ],
+          [
+            "--sx-1uv3w6h",
+            ""
+          ],
+          [
+            "--ease-out-quad",
+            "cubic-bezier(.25, .46, .45, .94)"
+          ],
+          [
+            "--title-3-letter-spacing",
+            "-.012em"
+          ],
+          [
+            "--editor-block-menu-size",
+            "20px"
+          ],
+          [
+            "--speed-highlightFadeOut",
+            ".15s"
+          ],
+          [
+            "--sx-138rywl",
+            "13vh"
+          ],
+          [
+            "--editor-last-invisible-paragraph-spacing",
+            "10px"
+          ],
+          [
+            "--sx-138kmyo",
+            ""
+          ],
+          [
+            "--sx-1ltkoa",
+            ""
+          ],
+          [
+            "--title-9-line-height",
+            "1"
+          ],
+          [
+            "--color-text-secondary",
+            "#d0d6e0"
+          ],
+          [
+            "--scrollbar-size-active",
+            "10px"
+          ],
+          [
+            "--sx-1mc3c6y",
+            ""
+          ],
+          [
+            "--sx-1dcvabv",
+            ""
+          ],
+          [
+            "--color-text-tertiary",
+            "#8a8f98"
+          ],
+          [
+            "--cursor-disabled",
+            "not-allowed"
+          ],
+          [
+            "--layer-tooltip",
+            "1100"
+          ],
+          [
+            "--font-emoji",
+            "\"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Segoe UI\", \"Twemoji Mozilla\", \"Noto Color Emoji\", \"Android Emoji\""
+          ],
+          [
+            "--ease-in-out-quart",
+            "cubic-bezier(.77, 0, .175, 1)"
+          ],
+          [
+            "--text-mini-letter-spacing",
+            "-.01em"
+          ],
+          [
+            "--sx-91u3ar",
+            ""
+          ],
+          [
+            "--sx-18yrgu8",
+            ""
+          ],
+          [
+            "--sx-18uyzu6",
+            ""
+          ],
+          [
+            "--sx-ot17o6",
+            ""
+          ],
+          [
+            "--text-regular-size",
+            ".9375rem"
+          ],
+          [
+            "--font-size-miniPlus",
+            ".75rem"
+          ],
+          [
+            "--text-regular-letter-spacing",
+            "-.011em"
+          ],
+          [
+            "--sx-1gm0lru",
+            ""
+          ],
+          [
+            "--icon-replacement-color",
+            ""
+          ],
+          [
+            "--editor-block-spacing-small",
+            "calc(.375 * 1rem)"
+          ],
+          [
+            "--sx-9pdekr",
+            ""
+          ],
+          [
+            "--sx-34xdpc",
+            ""
+          ],
+          [
+            "--sx-1gxylln",
+            ""
+          ],
+          [
+            "--sx-tw6awd",
+            ""
+          ],
+          [
+            "--editor-block-radius",
+            "6px"
+          ],
+          [
+            "--shadow-low",
+            "0px 2px 4px #0000001a"
+          ],
+          [
+            "--font-size-microPlus",
+            ".6875rem"
+          ],
+          [
+            "--color-line-tertiary",
+            "#18191a"
+          ],
+          [
+            "--color-white",
+            "#fff"
+          ],
+          [
+            "--sx-kthb5v",
+            ""
+          ],
+          [
+            "--text-tiny",
+            ".625rem / 1.5 \"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\", \"Ubuntu\", \"Cantarell\", \"Open Sans\", \"Helvetica Neue\", sans-serif"
+          ],
+          [
+            "--sx-183dfpr",
+            ""
+          ]
+        ],
+        "scrollBehavior": "auto"
+      }
+    ]
+  },
+  {
+    "name": "stripe",
+    "url": "https://stripe.com",
+    "capturedAt": "2026-10-01T10:19:02.940Z",
+    "viewports": [
+      {
+        "width": 1440,
+        "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+        "url": "https://stripe.com/in",
+        "elements": [
+          {
+            "selector": "body",
+            "text": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebSite\",\"url\":\"https://stripe.com/\",\"name\":\"St",
+            "font": "sohne-var, \"SF Pro Display\", sans-serif",
+            "size": "16px",
+            "lineHeight": "normal",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h1",
+            "text": "Financial infrastructure to grow your revenue. Accept payments, offer financial services and impleme",
+            "font": "sohne-var, \"SF Pro Display\", sans-serif",
+            "size": "48px",
+            "lineHeight": "55.2px",
+            "weight": "300",
+            "tracking": "-0.96px",
+            "color": "rgb(129, 184, 26)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "relative"
+          },
+          {
+            "selector": "h2",
+            "text": "Flexible solutions for every business model.",
+            "font": "sohne-var, \"SF Pro Display\", sans-serif",
+            "size": "32px",
+            "lineHeight": "35.2px",
+            "weight": "300",
+            "tracking": "-0.64px",
+            "color": "rgb(6, 27, 49)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "nav",
+            "text": "ProductsSolutionsDevelopersResourcesPricingSign inSee all productsExplore our full product catalogue",
+            "font": "sohne-var, \"SF Pro Display\", sans-serif",
+            "size": "16px",
+            "lineHeight": "normal",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "10px 16px",
+            "gap": "28px",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "relative"
+          },
+          {
+            "selector": "a",
+            "text": "",
+            "font": "sohne-var, \"SF Pro Display\", sans-serif",
+            "size": "16px",
+            "lineHeight": "normal",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(83, 58, 253)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "cubic-bezier(0.45, 0.05, 0.55, 0.95)",
+            "duration": "0.24s",
+            "position": "static"
+          },
+          {
+            "selector": "button",
+            "text": "Products",
+            "font": "sohne-var, \"SF Pro Display\", sans-serif",
+            "size": "14px",
+            "lineHeight": "14px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(6, 27, 49)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "12px 0px",
+            "gap": "4px",
+            "easing": "cubic-bezier(0.45, 0.05, 0.55, 0.95), cubic-bezier(0.45, 0.05, 0.55, 0.95), cubic-bezier(0.45, 0.05, 0.55, 0.95)",
+            "duration": "0.24s, 0.24s, 0.24s",
+            "position": "relative"
+          }
+        ],
+        "tokens": [
+          [
+            "--hds-color-core-neutral-975",
+            "#0d253d"
+          ],
+          [
+            "--hds-color-accent-border-solid",
+            "#533afd"
+          ],
+          [
+            "--hds-font-input-text-md-lineHeight",
+            "1.3"
+          ],
+          [
+            "--hds-shadow-sm-top-offset-y",
+            "5px"
+          ],
+          [
+            "--hds-color-accentColorMode-ruby-icon-solid",
+            "#ea2261"
+          ],
+          [
+            "--hds-color-util-brand-900",
+            "#1c1e54"
+          ],
+          [
+            "--hds-color-action-bg-subduedHover",
+            "#b9b9f9"
+          ],
+          [
+            "--hds-color-accentColorMode-magenta-surface-subduedAlt",
+            "#ffe6f5"
+          ],
+          [
+            "--hds-shadow-sm-bottom-offset-y",
+            "2px"
+          ],
+          [
+            "--hds-color-input-text-label",
+            "#273951"
+          ],
+          [
+            "--hds-color-input-text-selected",
+            "#273951"
+          ],
+          [
+            "--hds-space-core-1900",
+            "152px"
+          ],
+          [
+            "--hds-space-core-300",
+            "24px"
+          ],
+          [
+            "--hds-color-input-text-popover",
+            "#273951"
+          ],
+          [
+            "--hds-color-shadow-sm-top",
+            "#00377014"
+          ],
+          [
+            "--hds-shadow-xs-top-blur",
+            "10px"
+          ],
+          [
+            "--hds-color-button-ui-iconHover",
+            "#2e2b8c"
+          ],
+          [
+            "--hds-font-heading-xs-lineHeight",
+            "1.2"
+          ],
+          [
+            "--hds-space-core-250",
+            "20px"
+          ],
+          [
+            "--hds-color-input-text-placeholder",
+            "#7d8ba4"
+          ],
+          [
+            "--hds-color-core-brandDark-800A",
+            "#4b31d080"
+          ],
+          [
+            "--hds-color-core-lemon-500",
+            "#9b6829"
+          ],
+          [
+            "--hds-space-core-2000",
+            "160px"
+          ],
+          [
+            "--hds-shadow-xs-bottom-blur",
+            "4px"
+          ],
+          [
+            "--hds-font-heading-md-letterSpacing",
+            "-0.01em"
+          ],
+          [
+            "--navigation-inline-end",
+            "16px"
+          ],
+          [
+            "--hds-color-shadow-lg-top",
+            "#0037701a"
+          ],
+          [
+            "--hds-color-util-bg-min",
+            "#fff"
+          ],
+          [
+            "--hds-color-core-neutral-50A",
+            "#a8c3de4d"
+          ],
+          [
+            "--hds-font-quoteAttribution-md-weight",
+            "300"
+          ],
+          [
+            "--hds-color-util-neutral-50",
+            "#e5edf5"
+          ],
+          [
+            "--hds-font-text-lg-letterSpacing",
+            "0em"
+          ],
+          [
+            "--hds-color-accentColorMode-lemon-surface-subdued",
+            "#fff2d8"
+          ],
+          [
+            "--hds-color-accentColorMode-magenta-icon-gradientMiddle",
+            "#f96bee"
+          ],
+          [
+            "--hds-color-input-selector-text-range",
+            "#665efd"
+          ],
+          [
+            "--hds-font-heading-xl-lineHeight",
+            "1.03"
+          ],
+          [
+            "--hds-font-heading-md-weight",
+            "300"
+          ],
+          [
+            "--hds-color-core-neutralDark-25",
+            "#f2f7fe"
+          ],
+          [
+            "--hds-color-input-border-hover",
+            "#665efd"
+          ],
+          [
+            "--hds-shadow-xs-top-offset-y",
+            "2px"
+          ],
+          [
+            "--hds-space-input-text-paddingX-lg",
+            "16px"
+          ],
+          [
+            "--hds-font-input-groupHeading-weight",
+            "300"
+          ],
+          [
+            "--hds-space-input-text-paddingY-sm",
+            "8px"
+          ],
+          [
+            "--hds-color-action-bg-translucent",
+            "#ffffffa6"
+          ],
+          [
+            "--hds-color-util-accent-magenta-100",
+            "#ffd7ef"
+          ],
+          [
+            "--hds-color-util-accent-orange-50",
+            "#ffe5da"
+          ],
+          [
+            "--hds-shadow-sm-bottom-offset-x",
+            "0px"
+          ],
+          [
+            "--hds-font-text-lg-lineHeight",
+            "1.4"
+          ],
+          [
+            "--hds-color-input-icon-solidAlternate",
+            "#533afd"
+          ],
+          [
+            "--hds-color-heading-subdued",
+            "#64748d"
+          ],
+          [
+            "--hds-color-action-focus-outerError",
+            "#ffafa24d"
+          ],
+          [
+            "--hds-color-heading-solid",
+            "#061b31"
+          ],
+          [
+            "--hds-font-input-description-lineHeight",
+            "1.3"
+          ],
+          [
+            "--hds-color-accent-charm-bg",
+            "#533afd"
+          ],
+          [
+            "--hds-color-util-bg-quiet",
+            "#f8fafd"
+          ],
+          [
+            "--hds-color-button-secondary-textDisabled",
+            "#95a4ba"
+          ],
+          [
+            "--hds-color-core-neutralDark-700",
+            "#273f73"
+          ],
+          [
+            "--hds-color-action-text-onSolid",
+            "#fff"
+          ],
+          [
+            "--hds-space-core-radius-none",
+            "0px"
+          ],
+          [
+            "--hds-color-core-neutralDark-990",
+            "#0d1738"
+          ]
+        ],
+        "scrollBehavior": "auto"
+      },
+      {
+        "width": 390,
+        "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+        "url": "https://stripe.com/in",
+        "elements": [
+          {
+            "selector": "body",
+            "text": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebSite\",\"url\":\"https://stripe.com/\",\"name\":\"St",
+            "font": "sohne-var, \"SF Pro Display\", sans-serif",
+            "size": "16px",
+            "lineHeight": "normal",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h1",
+            "text": "Financial infrastructure to grow your revenue. Accept payments, offer financial services and impleme",
+            "font": "sohne-var, \"SF Pro Display\", sans-serif",
+            "size": "34px",
+            "lineHeight": "35.02px",
+            "weight": "300",
+            "tracking": "-0.34px",
+            "color": "rgb(129, 184, 26)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "relative"
+          },
+          {
+            "selector": "h2",
+            "text": "Flexible solutions for every business model.",
+            "font": "sohne-var, \"SF Pro Display\", sans-serif",
+            "size": "22px",
+            "lineHeight": "26.4px",
+            "weight": "300",
+            "tracking": "-0.22px",
+            "color": "rgb(6, 27, 49)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "nav",
+            "text": "ProductsSolutionsDevelopersResourcesPricingSign inSee all productsExplore our full product catalogue",
+            "font": "sohne-var, \"SF Pro Display\", sans-serif",
+            "size": "16px",
+            "lineHeight": "normal",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "12px 12px 14px 16px",
+            "gap": "16px",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "relative"
+          },
+          {
+            "selector": "a",
+            "text": "",
+            "font": "sohne-var, \"SF Pro Display\", sans-serif",
+            "size": "16px",
+            "lineHeight": "normal",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(83, 58, 253)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "cubic-bezier(0.45, 0.05, 0.55, 0.95)",
+            "duration": "0.24s",
+            "position": "static"
+          },
+          {
+            "selector": "button",
+            "text": "",
+            "font": "sohne-var, \"SF Pro Display\", sans-serif",
+            "size": "16px",
+            "lineHeight": "16px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgb(232, 233, 255)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "cubic-bezier(0.25, 1, 0.5, 1), cubic-bezier(0.25, 1, 0.5, 1)",
+            "duration": "0.3s, 0.3s",
+            "position": "relative"
+          }
+        ],
+        "tokens": [
+          [
+            "--hds-color-core-neutral-975",
+            "#0d253d"
+          ],
+          [
+            "--hds-color-accent-border-solid",
+            "#533afd"
+          ],
+          [
+            "--hds-font-input-text-md-lineHeight",
+            "1.05"
+          ],
+          [
+            "--hds-shadow-sm-top-offset-y",
+            "5px"
+          ],
+          [
+            "--hds-color-accentColorMode-ruby-icon-solid",
+            "#ea2261"
+          ],
+          [
+            "--hds-color-util-brand-900",
+            "#1c1e54"
+          ],
+          [
+            "--hds-color-action-bg-subduedHover",
+            "#b9b9f9"
+          ],
+          [
+            "--hds-color-accentColorMode-magenta-surface-subduedAlt",
+            "#ffe6f5"
+          ],
+          [
+            "--hds-shadow-sm-bottom-offset-y",
+            "2px"
+          ],
+          [
+            "--hds-color-input-text-label",
+            "#273951"
+          ],
+          [
+            "--hds-color-input-text-selected",
+            "#273951"
+          ],
+          [
+            "--hds-space-core-1900",
+            "152px"
+          ],
+          [
+            "--hds-space-core-300",
+            "24px"
+          ],
+          [
+            "--hds-color-input-text-popover",
+            "#273951"
+          ],
+          [
+            "--hds-color-shadow-sm-top",
+            "#00377014"
+          ],
+          [
+            "--hds-shadow-xs-top-blur",
+            "10px"
+          ],
+          [
+            "--hds-color-button-ui-iconHover",
+            "#2e2b8c"
+          ],
+          [
+            "--hds-font-heading-xs-lineHeight",
+            "1.2"
+          ],
+          [
+            "--hds-space-core-250",
+            "20px"
+          ],
+          [
+            "--hds-color-input-text-placeholder",
+            "#7d8ba4"
+          ],
+          [
+            "--hds-color-core-brandDark-800A",
+            "#4b31d080"
+          ],
+          [
+            "--hds-color-core-lemon-500",
+            "#9b6829"
+          ],
+          [
+            "--hds-space-core-2000",
+            "160px"
+          ],
+          [
+            "--hds-shadow-xs-bottom-blur",
+            "4px"
+          ],
+          [
+            "--hds-font-heading-md-letterSpacing",
+            "-0.01em"
+          ],
+          [
+            "--navigation-inline-end",
+            "12px"
+          ],
+          [
+            "--hds-color-shadow-lg-top",
+            "#0037701a"
+          ],
+          [
+            "--hds-color-util-bg-min",
+            "#fff"
+          ],
+          [
+            "--hds-color-core-neutral-50A",
+            "#a8c3de4d"
+          ],
+          [
+            "--hds-font-quoteAttribution-md-weight",
+            "300"
+          ],
+          [
+            "--hds-color-util-neutral-50",
+            "#e5edf5"
+          ],
+          [
+            "--hds-font-text-lg-letterSpacing",
+            "0em"
+          ],
+          [
+            "--hds-color-accentColorMode-lemon-surface-subdued",
+            "#fff2d8"
+          ],
+          [
+            "--hds-color-accentColorMode-magenta-icon-gradientMiddle",
+            "#f96bee"
+          ],
+          [
+            "--hds-color-input-selector-text-range",
+            "#665efd"
+          ],
+          [
+            "--hds-font-heading-xl-lineHeight",
+            "1.07"
+          ],
+          [
+            "--hds-font-heading-md-weight",
+            "300"
+          ],
+          [
+            "--hds-color-core-neutralDark-25",
+            "#f2f7fe"
+          ],
+          [
+            "--hds-color-input-border-hover",
+            "#665efd"
+          ],
+          [
+            "--hds-shadow-xs-top-offset-y",
+            "2px"
+          ],
+          [
+            "--hds-space-input-text-paddingX-lg",
+            "16px"
+          ],
+          [
+            "--hds-font-input-groupHeading-weight",
+            "300"
+          ],
+          [
+            "--hds-space-input-text-paddingY-sm",
+            "8px"
+          ],
+          [
+            "--hds-color-action-bg-translucent",
+            "#ffffffa6"
+          ],
+          [
+            "--hds-color-util-accent-magenta-100",
+            "#ffd7ef"
+          ],
+          [
+            "--hds-color-util-accent-orange-50",
+            "#ffe5da"
+          ],
+          [
+            "--hds-shadow-sm-bottom-offset-x",
+            "0px"
+          ],
+          [
+            "--hds-font-text-lg-lineHeight",
+            "1.35"
+          ],
+          [
+            "--hds-color-input-icon-solidAlternate",
+            "#533afd"
+          ],
+          [
+            "--hds-color-heading-subdued",
+            "#64748d"
+          ],
+          [
+            "--hds-color-action-focus-outerError",
+            "#ffafa24d"
+          ],
+          [
+            "--hds-color-heading-solid",
+            "#061b31"
+          ],
+          [
+            "--hds-font-input-description-lineHeight",
+            "1.3"
+          ],
+          [
+            "--hds-color-accent-charm-bg",
+            "#533afd"
+          ],
+          [
+            "--hds-color-util-bg-quiet",
+            "#f8fafd"
+          ],
+          [
+            "--hds-color-button-secondary-textDisabled",
+            "#95a4ba"
+          ],
+          [
+            "--hds-color-core-neutralDark-700",
+            "#273f73"
+          ],
+          [
+            "--hds-color-action-text-onSolid",
+            "#fff"
+          ],
+          [
+            "--hds-space-core-radius-none",
+            "0px"
+          ],
+          [
+            "--hds-color-core-neutralDark-990",
+            "#0d1738"
+          ]
+        ],
+        "scrollBehavior": "auto"
+      }
+    ]
+  },
+  {
+    "name": "palantir",
+    "url": "https://www.palantir.com",
+    "capturedAt": "2026-10-01T10:19:07.491Z",
+    "viewports": [
+      {
+        "width": 1440,
+        "title": "Home | Palantir",
+        "url": "https://www.palantir.com/",
+        "elements": [
+          {
+            "selector": "body",
+            "text": "/sitemap.xmlHome | Palantir{\"props\":{\"pageProps\":{\"page\":{\"fields\":{\"backgroundColor\":\"light\",\"block",
+            "font": "\"Alliance No.1\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "size": "18px",
+            "lineHeight": "25px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(30, 33, 36)",
+            "background": "rgb(255, 255, 255)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h1",
+            "missing": true
+          },
+          {
+            "selector": "h2",
+            "missing": true
+          },
+          {
+            "selector": "nav",
+            "missing": true
+          },
+          {
+            "selector": "a",
+            "missing": true
+          },
+          {
+            "selector": "button",
+            "missing": true
+          }
+        ],
+        "tokens": [
+          [
+            "--details-captions-size",
+            "0.5555555556rem"
+          ],
+          [
+            "--section-v-spacing",
+            "5.5555555556rem"
+          ],
+          [
+            "--accent-color",
+            "#2b5945"
+          ],
+          [
+            "--body-100-size",
+            "0.8888888889rem"
+          ],
+          [
+            "--headline-200-letter",
+            "-0.02em"
+          ],
+          [
+            "--spacing-l",
+            "calc(1.6666666667rem * 4)"
+          ],
+          [
+            "--accent10-color",
+            "rgba(43,89,69,.1)"
+          ],
+          [
+            "--headline-200-family",
+            "\"Alliance No.2\",\"Alliance No.1\",system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,\"Fira Sans\",\"Droid Sans\",\"Helvetica Neue\",Helvetica,Arial,sans-serif"
+          ],
+          [
+            "--qualitative-1",
+            "#29a634"
+          ],
+          [
+            "--body-400-size",
+            "1.8888888889rem"
+          ],
+          [
+            "--headline-300-line",
+            "1.15"
+          ],
+          [
+            "--body-300-line",
+            "1.3"
+          ],
+          [
+            "--hover-color",
+            "rgba(30,33,36,0.33)"
+          ],
+          [
+            "--qualitative-default",
+            "#a7b6c2"
+          ],
+          [
+            "--headline-100-family",
+            "\"Alliance No.2\",\"Alliance No.1\",system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,\"Fira Sans\",\"Droid Sans\",\"Helvetica Neue\",Helvetica,Arial,sans-serif"
+          ],
+          [
+            "--body-100-line",
+            "1.4286"
+          ],
+          [
+            "--accent05-color",
+            "rgba(43,89,69,.05)"
+          ],
+          [
+            "--body-400-line",
+            "1.1765"
+          ],
+          [
+            "--zero",
+            "0 * 1rem"
+          ],
+          [
+            "--border-color",
+            "currentColor"
+          ],
+          [
+            "--headline-100-letter",
+            "-0.02em"
+          ],
+          [
+            "--qualitative-2",
+            "#d1980b"
+          ],
+          [
+            "--body-color-light",
+            "#f9f9f9"
+          ],
+          [
+            "--qualitative-7",
+            "#00a396"
+          ],
+          [
+            "--spacing-m",
+            "calc(1.6666666667rem * 2)"
+          ],
+          [
+            "--error-color",
+            "#ff4136"
+          ],
+          [
+            "--details-earmark-family",
+            "\"Alliance No.2\",\"Alliance No.1\",system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,\"Fira Sans\",\"Droid Sans\",\"Helvetica Neue\",Helvetica,Arial,sans-serif"
+          ],
+          [
+            "--body-color",
+            "#fff"
+          ],
+          [
+            "--input-border-color",
+            "#636363"
+          ],
+          [
+            "--headline-100-size",
+            "2.7777777778rem"
+          ],
+          [
+            "--body-200-line",
+            "1.3889"
+          ],
+          [
+            "--max-width",
+            "80rem"
+          ],
+          [
+            "--v-gutter",
+            "1.6666666667rem"
+          ],
+          [
+            "--details-captions-letter",
+            "0.05em"
+          ],
+          [
+            "--qualitative-0",
+            "#147eb3"
+          ],
+          [
+            "--qualitative-3",
+            "#d13913"
+          ],
+          [
+            "--qualitative-4",
+            "#634dbf"
+          ],
+          [
+            "--accent05-opaque-color",
+            "#f4f7f6"
+          ],
+          [
+            "--spacing-tiny",
+            "0.1666666667rem"
+          ],
+          [
+            "--text-color-medium",
+            "#636363"
+          ],
+          [
+            "--headline-300-size",
+            "5.5555555556rem"
+          ],
+          [
+            "--form-placeholder-size",
+            "0.7777777778rem"
+          ],
+          [
+            "--h-contain-no-bleed",
+            "max(calc((100% - 80rem) / 2),0 * 1rem)"
+          ],
+          [
+            "--spacing-xs",
+            "0.5555555556rem"
+          ],
+          [
+            "--headline-200-size",
+            "4rem"
+          ],
+          [
+            "--qualitative-5",
+            "#d17e09"
+          ],
+          [
+            "--body-200-size",
+            "1rem"
+          ],
+          [
+            "--body-300-size",
+            "1.1111111111rem"
+          ],
+          [
+            "--spacing-s",
+            "1.1111111111rem"
+          ],
+          [
+            "--details-captions-line",
+            "1.6"
+          ],
+          [
+            "--hover-opacity",
+            "0.33"
+          ],
+          [
+            "--text-color-light",
+            "#767676"
+          ],
+          [
+            "--text-color",
+            "#1e2124"
+          ],
+          [
+            "--qualitative-8",
+            "#5642a6"
+          ],
+          [
+            "--h-contain",
+            "max(calc((100% - 80rem) / 2),1.6666666667rem)"
+          ],
+          [
+            "--headline-200-line",
+            "1.1944"
+          ],
+          [
+            "--headline-300-letter",
+            "-0.02em"
+          ],
+          [
+            "--body-color-medium",
+            "#f3f3f3"
+          ],
+          [
+            "--headline-300-family",
+            "\"Alliance No.2\",\"Alliance No.1\",system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,\"Fira Sans\",\"Droid Sans\",\"Helvetica Neue\",Helvetica,Arial,sans-serif"
+          ],
+          [
+            "--grid",
+            "repeat(12,minmax(10px,1fr))"
+          ]
+        ],
+        "scrollBehavior": "auto"
+      },
+      {
+        "width": 390,
+        "title": "Home | Palantir",
+        "url": "https://www.palantir.com/",
+        "elements": [
+          {
+            "selector": "body",
+            "text": "/sitemap.xmlHome | PalantirNavigationSovereign AI↳ AIP↳ Foundry↳ Gotham↳ Ontology↳ ApolloOfferingsIm",
+            "font": "\"Alliance No.1\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "size": "18px",
+            "lineHeight": "25px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(30, 33, 36)",
+            "background": "rgb(255, 255, 255)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h1",
+            "text": "Sovereign AI Systems for Every Decision",
+            "font": "\"Alliance No.2\", \"Alliance No.1\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "size": "30px",
+            "lineHeight": "36px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(239, 239, 239)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "42.2px 0px 84.4px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "relative"
+          },
+          {
+            "selector": "h2",
+            "text": "Navigation",
+            "font": "\"Alliance No.2\", \"Alliance No.1\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "size": "10px",
+            "lineHeight": "16px",
+            "weight": "400",
+            "tracking": "0.5px",
+            "color": "rgb(185, 185, 185)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "nav",
+            "text": "NavigationSovereign AI↳ AIP↳ Foundry↳ Gotham↳ Ontology↳ ApolloOfferingsImpact StudiesDocumentationCa",
+            "font": "\"Alliance No.1\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "size": "18px",
+            "lineHeight": "25px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "absolute"
+          },
+          {
+            "selector": "a",
+            "text": "Sovereign AI",
+            "font": "\"Alliance No.1\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "size": "20px",
+            "lineHeight": "26px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "10px 0px",
+            "gap": "normal",
+            "easing": "ease-in-out",
+            "duration": "0.25s",
+            "position": "static"
+          },
+          {
+            "selector": "button",
+            "text": "",
+            "font": "\"Alliance No.1\", system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+            "size": "16px",
+            "lineHeight": "22.8576px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(30, 31, 43)",
+            "padding": "14px 19px",
+            "gap": "normal",
+            "easing": "ease-in-out",
+            "duration": "0.25s",
+            "position": "static"
+          }
+        ],
+        "tokens": [
+          [
+            "--details-captions-size",
+            "0.5555555556rem"
+          ],
+          [
+            "--section-v-spacing",
+            "3.3333333333rem"
+          ],
+          [
+            "--accent-color",
+            "#2b5945"
+          ],
+          [
+            "--body-100-size",
+            "0.8888888889rem"
+          ],
+          [
+            "--headline-200-letter",
+            "normal"
+          ],
+          [
+            "--spacing-l",
+            "calc(0.5555555556rem * 4)"
+          ],
+          [
+            "--accent10-color",
+            "rgba(43,89,69,.1)"
+          ],
+          [
+            "--headline-200-family",
+            "\"Alliance No.1\",system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,\"Fira Sans\",\"Droid Sans\",\"Helvetica Neue\",Helvetica,Arial,sans-serif"
+          ],
+          [
+            "--qualitative-1",
+            "#29a634"
+          ],
+          [
+            "--body-400-size",
+            "1.1111111111rem"
+          ],
+          [
+            "--headline-300-line",
+            "1.1765"
+          ],
+          [
+            "--body-300-line",
+            "1.3"
+          ],
+          [
+            "--hover-color",
+            "rgba(30,33,36,0.33)"
+          ],
+          [
+            "--qualitative-default",
+            "#a7b6c2"
+          ],
+          [
+            "--headline-100-family",
+            "\"Alliance No.1\",system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,\"Fira Sans\",\"Droid Sans\",\"Helvetica Neue\",Helvetica,Arial,sans-serif"
+          ],
+          [
+            "--body-100-line",
+            "1.4286"
+          ],
+          [
+            "--accent05-color",
+            "rgba(43,89,69,.05)"
+          ],
+          [
+            "--body-400-line",
+            "1.3"
+          ],
+          [
+            "--zero",
+            "0 * 1rem"
+          ],
+          [
+            "--border-color",
+            "currentColor"
+          ],
+          [
+            "--headline-100-letter",
+            "normal"
+          ],
+          [
+            "--qualitative-2",
+            "#d1980b"
+          ],
+          [
+            "--body-color-light",
+            "#f9f9f9"
+          ],
+          [
+            "--qualitative-7",
+            "#00a396"
+          ],
+          [
+            "--spacing-m",
+            "calc(0.5555555556rem * 2)"
+          ],
+          [
+            "--error-color",
+            "#ff4136"
+          ],
+          [
+            "--details-earmark-family",
+            "\"Alliance No.2\",\"Alliance No.1\",system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,\"Fira Sans\",\"Droid Sans\",\"Helvetica Neue\",Helvetica,Arial,sans-serif"
+          ],
+          [
+            "--body-color",
+            "#fff"
+          ],
+          [
+            "--input-border-color",
+            "#636363"
+          ],
+          [
+            "--headline-100-size",
+            "1.8888888889rem"
+          ],
+          [
+            "--body-200-line",
+            "1.3889"
+          ],
+          [
+            "--max-width",
+            "80rem"
+          ],
+          [
+            "--v-gutter",
+            "1.1111111111rem"
+          ],
+          [
+            "--details-captions-letter",
+            "0.05em"
+          ],
+          [
+            "--qualitative-0",
+            "#147eb3"
+          ],
+          [
+            "--qualitative-3",
+            "#d13913"
+          ],
+          [
+            "--qualitative-4",
+            "#634dbf"
+          ],
+          [
+            "--accent05-opaque-color",
+            "#f4f7f6"
+          ],
+          [
+            "--spacing-tiny",
+            "0.1666666667rem"
+          ],
+          [
+            "--text-color-medium",
+            "#636363"
+          ],
+          [
+            "--headline-300-size",
+            "1.8888888889rem"
+          ],
+          [
+            "--form-placeholder-size",
+            "0.7777777778rem"
+          ],
+          [
+            "--h-contain-no-bleed",
+            "max(calc((100% - 80rem) / 2),0 * 1rem)"
+          ],
+          [
+            "--spacing-xs",
+            "0.5555555556rem"
+          ],
+          [
+            "--headline-200-size",
+            "1.8888888889rem"
+          ],
+          [
+            "--qualitative-5",
+            "#d17e09"
+          ],
+          [
+            "--body-200-size",
+            "1rem"
+          ],
+          [
+            "--body-300-size",
+            "1rem"
+          ],
+          [
+            "--spacing-s",
+            "1.1111111111rem"
+          ],
+          [
+            "--details-captions-line",
+            "1.6"
+          ],
+          [
+            "--hover-opacity",
+            "0.33"
+          ],
+          [
+            "--text-color-light",
+            "#767676"
+          ],
+          [
+            "--text-color",
+            "#1e2124"
+          ],
+          [
+            "--qualitative-8",
+            "#5642a6"
+          ],
+          [
+            "--h-contain",
+            "max(calc((100% - 80rem) / 2),1.1111111111rem)"
+          ],
+          [
+            "--headline-200-line",
+            "1.1765"
+          ],
+          [
+            "--headline-300-letter",
+            "normal"
+          ],
+          [
+            "--body-color-medium",
+            "#f3f3f3"
+          ],
+          [
+            "--headline-300-family",
+            "\"Alliance No.1\",system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen,Ubuntu,Cantarell,\"Fira Sans\",\"Droid Sans\",\"Helvetica Neue\",Helvetica,Arial,sans-serif"
+          ],
+          [
+            "--grid",
+            "repeat(12,minmax(10px,1fr))"
+          ]
+        ],
+        "scrollBehavior": "smooth"
+      }
+    ]
+  },
+  {
+    "name": "anduril",
+    "url": "https://www.anduril.com",
+    "capturedAt": "2026-10-01T10:19:09.227Z",
+    "viewports": [
+      {
+        "width": 1440,
+        "title": "Transforming U.S. Defense Capabilities with Advanced Technology | Anduril",
+        "url": "https://www.anduril.com/",
+        "elements": [
+          {
+            "selector": "body",
+            "text": "<p style=\"background: black; color: white; font-size: 20px; display: inline; font-family: Helvetica,",
+            "font": "\"Times New Roman\"",
+            "size": "16px",
+            "lineHeight": "normal",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgb(0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h1",
+            "missing": true
+          },
+          {
+            "selector": "h2",
+            "missing": true
+          },
+          {
+            "selector": "nav",
+            "missing": true
+          },
+          {
+            "selector": "a",
+            "missing": true
+          },
+          {
+            "selector": "button",
+            "missing": true
+          }
+        ],
+        "tokens": [
+          [
+            "--theme-color-background",
+            "#010101"
+          ],
+          [
+            "--is-mob",
+            "0"
+          ],
+          [
+            "--theme-color-text",
+            "#fff"
+          ]
+        ],
+        "scrollBehavior": "auto"
+      },
+      {
+        "width": 390,
+        "title": "Transforming U.S. Defense Capabilities with Advanced Technology | Anduril",
+        "url": "https://www.anduril.com/",
+        "elements": [
+          {
+            "selector": "body",
+            "text": "<p style=\"background: black; color: white; font-size: 20px; display: inline; font-family: Helvetica,",
+            "font": "\"Times New Roman\"",
+            "size": "14px",
+            "lineHeight": "normal",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgb(0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h1",
+            "missing": true
+          },
+          {
+            "selector": "h2",
+            "text": "Thunder",
+            "font": "HelveticaNowDisplay, Helvetica, Arial, sans-serif",
+            "size": "23.996px",
+            "lineHeight": "27.5954px",
+            "weight": "700",
+            "tracking": "-0.238px",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease-out",
+            "duration": "0.25s",
+            "position": "static"
+          },
+          {
+            "selector": "nav",
+            "text": "Anduril LogoSearchNo results foundHomeContactcontact@anduril.comSocial",
+            "font": "\"Times New Roman\"",
+            "size": "14px",
+            "lineHeight": "normal",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "fixed"
+          },
+          {
+            "selector": "a",
+            "text": "Anduril Logo",
+            "font": "\"Times New Roman\"",
+            "size": "14px",
+            "lineHeight": "normal",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "button",
+            "text": "",
+            "font": "HelveticaNowDisplay, Helvetica, Arial, sans-serif",
+            "size": "14.994px",
+            "lineHeight": "15.7437px",
+            "weight": "400",
+            "tracking": "-0.154px",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          }
+        ],
+        "tokens": [
+          [
+            "--theme-color-background",
+            "#010101"
+          ],
+          [
+            "--header-offset",
+            "72px"
+          ],
+          [
+            "--is-mob",
+            "1"
+          ],
+          [
+            "--theme-color-text",
+            "#fff"
+          ]
+        ],
+        "scrollBehavior": "auto"
+      }
+    ]
+  },
+  {
+    "name": "figure",
+    "url": "https://www.figure.ai",
+    "capturedAt": "2026-10-01T10:19:11.149Z",
+    "viewports": [
+      {
+        "width": 1440,
+        "title": "Figure",
+        "url": "https://www.figure.ai/",
+        "elements": [
+          {
+            "selector": "body",
+            "text": "FIGURE 03HELIXINDEXNEWSCAREERSCOMPANYThe future of home help is hereFigure 03 is a general purpose h",
+            "font": "neue-haas-grot-text, sans-serif",
+            "size": "16px",
+            "lineHeight": "24px",
+            "weight": "400",
+            "tracking": "-0.16px",
+            "color": "rgb(12, 12, 12)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h1",
+            "text": "The future of home help is here",
+            "font": "pp-neue-machina-plain, serif",
+            "size": "28px",
+            "lineHeight": "31.08px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h2",
+            "missing": true
+          },
+          {
+            "selector": "nav",
+            "text": "FIGURE 03HELIXINDEXNEWSCAREERSCOMPANY",
+            "font": "neue-haas-grot-text, sans-serif",
+            "size": "16px",
+            "lineHeight": "24px",
+            "weight": "400",
+            "tracking": "-0.16px",
+            "color": "rgb(12, 12, 12)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease-in-out, ease-in-out",
+            "duration": "0.3s, 0.3s",
+            "position": "relative"
+          },
+          {
+            "selector": "a",
+            "text": "",
+            "font": "neue-haas-grot-text, sans-serif",
+            "size": "16px",
+            "lineHeight": "24px",
+            "weight": "400",
+            "tracking": "-0.16px",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease-in-out",
+            "duration": "0.3s, 0.3s, 0.3s, 0.3s, 0.3s, 0.3s",
+            "position": "relative"
+          },
+          {
+            "selector": "button",
+            "text": "Sign Up",
+            "font": "neue-haas-grot-text, sans-serif",
+            "size": "14px",
+            "lineHeight": "16.8px",
+            "weight": "500",
+            "tracking": "normal",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(12, 12, 12)",
+            "padding": "0px 32px",
+            "gap": "normal",
+            "easing": "ease-in-out, ease-in-out",
+            "duration": "0.3s, 0.3s",
+            "position": "relative"
+          }
+        ],
+        "tokens": [
+          [
+            "--color-white",
+            "#fff"
+          ],
+          [
+            "--swiper-navigation-size",
+            "44px"
+          ],
+          [
+            "--color-figure-white",
+            "#f6f6ef"
+          ],
+          [
+            "--color-grey-alt-2",
+            "#2e2e2e"
+          ],
+          [
+            "--swiper-theme-color",
+            "#007aff"
+          ],
+          [
+            "--color-figure-black",
+            "#0c0c0c"
+          ],
+          [
+            "--color-black",
+            "#000"
+          ],
+          [
+            "--color-black-alt",
+            "#1d1d1d"
+          ]
+        ],
+        "scrollBehavior": "auto"
+      },
+      {
+        "width": 390,
+        "title": "Figure",
+        "url": "https://www.figure.ai/",
+        "elements": [
+          {
+            "selector": "body",
+            "text": "FIGURE 03HELIXINDEXNEWSCAREERSCOMPANYThe future of home help is hereFigure 03 is a general purpose h",
+            "font": "neue-haas-grot-text, sans-serif",
+            "size": "14px",
+            "lineHeight": "21px",
+            "weight": "400",
+            "tracking": "-0.14px",
+            "color": "rgb(12, 12, 12)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h1",
+            "text": "The future of home help is here",
+            "font": "pp-neue-machina-plain, serif",
+            "size": "20px",
+            "lineHeight": "22.2px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h2",
+            "missing": true
+          },
+          {
+            "selector": "nav",
+            "text": "FIGURE 03HELIXINDEXNEWSCAREERSCOMPANY",
+            "font": "neue-haas-grot-text, sans-serif",
+            "size": "14px",
+            "lineHeight": "21px",
+            "weight": "400",
+            "tracking": "-0.14px",
+            "color": "rgb(12, 12, 12)",
+            "background": "rgb(255, 255, 255)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease-in-out, ease-in-out",
+            "duration": "0.3s, 0.3s",
+            "position": "fixed"
+          },
+          {
+            "selector": "a",
+            "text": "",
+            "font": "neue-haas-grot-text, sans-serif",
+            "size": "14px",
+            "lineHeight": "21px",
+            "weight": "400",
+            "tracking": "-0.14px",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease-in-out",
+            "duration": "0.3s, 0.3s, 0.3s, 0.3s, 0.3s, 0.3s",
+            "position": "relative"
+          },
+          {
+            "selector": "button",
+            "text": "",
+            "font": "Arial",
+            "size": "13.3333px",
+            "lineHeight": "normal",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease-in-out, ease-in-out, ease-in-out",
+            "duration": "0.3s, 0.3s, 0.3s",
+            "position": "relative"
+          }
+        ],
+        "tokens": [
+          [
+            "--color-white",
+            "#fff"
+          ],
+          [
+            "--swiper-navigation-size",
+            "44px"
+          ],
+          [
+            "--color-figure-white",
+            "#f6f6ef"
+          ],
+          [
+            "--color-grey-alt-2",
+            "#2e2e2e"
+          ],
+          [
+            "--swiper-theme-color",
+            "#007aff"
+          ],
+          [
+            "--color-figure-black",
+            "#0c0c0c"
+          ],
+          [
+            "--color-black",
+            "#000"
+          ],
+          [
+            "--color-black-alt",
+            "#1d1d1d"
+          ]
+        ],
+        "scrollBehavior": "auto"
+      }
+    ]
+  },
+  {
+    "name": "godly",
+    "url": "https://godly.website",
+    "capturedAt": "2026-10-01T10:19:12.592Z",
+    "viewports": [
+      {
+        "width": 1440,
+        "title": "Recent — Design Inspiration",
+        "url": "https://recent.design/?ref=godly",
+        "elements": [
+          {
+            "selector": "body",
+            "text": "BrowseDesignWebsitesOG ImagesApp ScreenshotsApp IconsResourcesToolsSkillsJobs© 2026SponsorInfoDesign",
+            "font": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "13px",
+            "lineHeight": "18.2px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(11, 11, 11)",
+            "background": "rgb(255, 255, 255)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h1",
+            "text": "Design",
+            "font": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "16px",
+            "lineHeight": "22.4px",
+            "weight": "500",
+            "tracking": "normal",
+            "color": "oklch(0.15 0 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h2",
+            "text": "Browse",
+            "font": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "13px",
+            "lineHeight": "18.2px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "oklch(0 0 0 / 0.267)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "nav",
+            "text": "BrowseDesignWebsitesOG ImagesApp ScreenshotsApp IconsResourcesToolsSkillsJobs",
+            "font": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "13px",
+            "lineHeight": "18.2px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(11, 11, 11)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "4px",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "a",
+            "text": "",
+            "font": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "13px",
+            "lineHeight": "18.2px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "oklch(0.15 0 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "button",
+            "text": "All",
+            "font": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "13px",
+            "lineHeight": "18.2px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "oklch(1 0 0)",
+            "background": "oklch(0.15 0 0)",
+            "padding": "0px 12px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          }
+        ],
+        "tokens": [
+          [
+            "--x1k28iop",
+            "oklch(0% 0 0 / .267)"
+          ],
+          [
+            "--x119acmd",
+            "oklch(62% .29 25)"
+          ],
+          [
+            "--x10cuvxl",
+            "oklch(94% 0 0)"
+          ],
+          [
+            "--xrkmfrx",
+            "oklch(62% .26 48)"
+          ],
+          [
+            "--xxdrspf",
+            "oklch(28% .13 145)"
+          ],
+          [
+            "--xpesj0y",
+            "oklch(15% 0 0)"
+          ],
+          [
+            "--font-sans",
+            "\"Inter\", ui-sans-serif, system-ui, sans-serif"
+          ],
+          [
+            "--xnvswnm",
+            "oklch(70% .27 145)"
+          ],
+          [
+            "--x179usif",
+            "oklch(28% .14 25)"
+          ],
+          [
+            "--x1fn64ny",
+            "oklch(68% .27 48)"
+          ],
+          [
+            "--x156kdii",
+            "oklch(0% 0 0 / .486)"
+          ],
+          [
+            "--x1ddyxfn",
+            "oklch(15% 0 0 / .4)"
+          ],
+          [
+            "--x5j2l4p",
+            "oklch(97% 0 0)"
+          ],
+          [
+            "--x1us3yq1",
+            "oklch(99.5% 0 0)"
+          ],
+          [
+            "--x1mzcagl",
+            "oklch(100% 0 0)"
+          ],
+          [
+            "--x1e8087l",
+            "oklch(38% .12 95)"
+          ],
+          [
+            "--x8cl1oh",
+            "oklch(86% .21 95)"
+          ]
+        ],
+        "scrollBehavior": "auto"
+      },
+      {
+        "width": 390,
+        "title": "Recent — Design Inspiration",
+        "url": "https://recent.design/?ref=godly",
+        "elements": [
+          {
+            "selector": "body",
+            "text": "BrowseDesignWebsitesOG ImagesApp ScreenshotsApp IconsResourcesToolsSkillsJobs© 2026SponsorInfoDesign",
+            "font": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "13px",
+            "lineHeight": "18.2px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(11, 11, 11)",
+            "background": "rgb(255, 255, 255)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h1",
+            "text": "Design",
+            "font": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "16px",
+            "lineHeight": "22.4px",
+            "weight": "500",
+            "tracking": "normal",
+            "color": "oklch(0.15 0 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "h2",
+            "text": "Design jobs",
+            "font": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "13px",
+            "lineHeight": "18.2px",
+            "weight": "400",
+            "tracking": "-0.041px",
+            "color": "oklch(0 0 0 / 0.486)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "nav",
+            "text": "SponsorInfo",
+            "font": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "13px",
+            "lineHeight": "18.2px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "rgb(11, 11, 11)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "12px",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "a",
+            "text": "",
+            "font": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "13px",
+            "lineHeight": "18.2px",
+            "weight": "400",
+            "tracking": "normal",
+            "color": "oklch(0.15 0 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "normal",
+            "easing": "ease",
+            "duration": "0s",
+            "position": "static"
+          },
+          {
+            "selector": "button",
+            "text": "",
+            "font": "Inter, ui-sans-serif, system-ui, sans-serif",
+            "size": "13px",
+            "lineHeight": "18.2px",
+            "weight": "400",
+            "tracking": "-0.041px",
+            "color": "oklch(0.15 0 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "padding": "0px",
+            "gap": "4px",
+            "easing": "cubic-bezier(0.2, 0, 0, 1)",
+            "duration": "0.12s",
+            "position": "relative"
+          }
+        ],
+        "tokens": [
+          [
+            "--x1k28iop",
+            "oklch(0% 0 0 / .267)"
+          ],
+          [
+            "--x119acmd",
+            "oklch(62% .29 25)"
+          ],
+          [
+            "--x10cuvxl",
+            "oklch(94% 0 0)"
+          ],
+          [
+            "--xrkmfrx",
+            "oklch(62% .26 48)"
+          ],
+          [
+            "--xxdrspf",
+            "oklch(28% .13 145)"
+          ],
+          [
+            "--xpesj0y",
+            "oklch(15% 0 0)"
+          ],
+          [
+            "--font-sans",
+            "\"Inter\", ui-sans-serif, system-ui, sans-serif"
+          ],
+          [
+            "--xnvswnm",
+            "oklch(70% .27 145)"
+          ],
+          [
+            "--x179usif",
+            "oklch(28% .14 25)"
+          ],
+          [
+            "--x1fn64ny",
+            "oklch(68% .27 48)"
+          ],
+          [
+            "--x156kdii",
+            "oklch(0% 0 0 / .486)"
+          ],
+          [
+            "--x1ddyxfn",
+            "oklch(15% 0 0 / .4)"
+          ],
+          [
+            "--x5j2l4p",
+            "oklch(97% 0 0)"
+          ],
+          [
+            "--x1us3yq1",
+            "oklch(99.5% 0 0)"
+          ],
+          [
+            "--x1mzcagl",
+            "oklch(100% 0 0)"
+          ],
+          [
+            "--x1e8087l",
+            "oklch(38% .12 95)"
+          ],
+          [
+            "--x8cl1oh",
+            "oklch(86% .21 95)"
+          ]
+        ],
+        "scrollBehavior": "auto"
+      }
+    ]
+  }
+]

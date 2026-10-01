@@ -1,0 +1,10 @@
+.venv/**
+web/node_modules/**
+web/dist/**
+web/test-results/**
+var/**
+reference/**/data/**
+knowledge/source-manifest.json
+knowledge/semantic-sources.json
+uv.lock
+web/package-lock.json
