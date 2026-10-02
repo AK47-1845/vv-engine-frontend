@@ -87,8 +87,8 @@ export default function RobotScene({ failure = 'nominal', hero = false, paused =
       gripper.add(finger);
     }
     scene.add(gripper);
-    const grid = new THREE.GridHelper(5, 40, '#3c5956', '#213332');
-    grid.position.y = -.04;
+    const grid = new THREE.GridHelper(12, 96, '#3c5956', '#213332');
+    grid.position.set(2, -.04, 2);
     scene.add(grid);
     const pathPoints = Array.from({ length: 120 }, (_, index) => new THREE.Vector3(...sampleTrace(index).intended));
     const tube = new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pathPoints), 180, .0035, 6, false);
@@ -116,7 +116,7 @@ export default function RobotScene({ failure = 'nominal', hero = false, paused =
       const height = Math.max(1, element.clientHeight);
       renderer.setSize(width, height);
       camera.aspect = width / height;
-      camera.position.set(2.65, 1.85, 3.5);
+      camera.position.set(2.95, 2.05, 3.85);
       camera.lookAt(hero && width >= 768 ? -.85 : .3, hero && width >= 768 ? .64 : .53, 0);
       camera.updateProjectionMatrix();
     };
