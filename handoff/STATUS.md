@@ -41,3 +41,10 @@ Final verification checkpoint: 2026-10-01 16:38:58 IST, minute 55. Feature work 
 - Final canvas probe: desktop 145,961 nontransparent pixels / 3,358 cyan pixels; mobile lightweight canvas 791 / 732; actual frame changes; no page errors or overflow.
 - Lighthouse: desktop 99/100/100/100, LCP 696ms; mobile 77/100/100/100, LCP 3515ms. Both CLS <0.0002. Not hosted field results.
 - Sustained 60fps: NOT VERIFIED. Whole-system safety/certification: NOT CLAIMED.
+
+## Muse restore note (2026-10-02)
+- Local working copy had gutted generated output: site/.next/static/chunks empty, site/.next-transfer assets missing, site/node_modules/next binary missing. Source intact.
+- Ran npm.cmd --prefix site ci (505 packages, 0 vuln) then npm run build: PASS, 4 routes prerendered.
+- Production server on 127.0.0.1:5191 verified live (HOME 200 plus static asset 200), detached PID 16960.
+- /privacy missing from build because site/src/app/privacy/page.tsx is deleted in working tree; left untouched per no-revert rule. Footer privacy link 404s until owner decides.
+- Full 11-test browser suite NOT rerun this session.
