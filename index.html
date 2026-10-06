@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Genuity Verify - Public Demo</title>
+<style>body{margin:0;background:#0e1216;color:#e9e6df;font:15px/1.6 'Segoe UI',system-ui,sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:32px 20px 64px}
+h1{font-size:28px;margin:0 0 4px}h2{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:#98a1ab;margin:32px 0 10px}
+.muted{color:#98a1ab}.small{font-size:13px}a{color:#d9a021}
+.panel{background:#151b22;border:1px solid #28303b;border-radius:8px;padding:18px;margin:12px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax:200px,1fr));gap:12px}
+.card{display:block;text-decoration:none;color:#e9e6df;background:#151b22;border:1px solid #28303b;border-radius:8px;padding:16px}
+.card:hover{border-color:#d9a021}
+.badge{font:700 11px ui-monospace,monospace;padding:2px 10px;border-radius:10px}
+.badge.green{background:#1d4d25;color:#8fdc99}.badge.amber{background:#4d3a10;color:#f0c35c}.badge.red{background:#5a1f24;color:#ef9a9a}
+.mono{font-family:ui-monospace,Consolas,monospace;font-size:13px}
+pre{background:#0b0f13;border:1px solid #28303b;border-radius:8px;padding:14px;overflow-x:auto;font-size:13px}
+img.shot{width:100%;height:auto;border:1px solid #28303b;border-radius:8px;margin:10px 0}
+.btn{display:inline-block;background:#d9a021;color:#111;font-weight:700;text-decoration:none;padding:10px 22px;border-radius:6px;margin:6px 8px 6px 0}
+.btn.ghost{background:transparent;color:#d9a021;border:1px solid #d9a021}
+ul{padding-left:20px}li{margin:4px 0}</style></head><body><div class="wrap">
+
+<h1>Genuity Verify</h1>
+<p class="muted">Independent verification, validation, and governance for Physical AI.
+Policy in, trust scorecard out, every run hash-chained into a provenance ledger.
+Built by <a href="https://github.com/AK47-1845">Adari Karthikeya</a> (Genuity IO).</p>
+<p><a class="btn" href="scorecards/index.html">Open the live scorecards</a>
+<a class="btn ghost" href="https://github.com/AK47-1845/vv-engine-frontend">Source repo</a></p>
+
+<h2>The 30-second story</h2>
+<div class="grid">
+<a class="card" href="scorecards/scorecard-clean.html"><span class="badge green">TRUSTED</span><br><b>Clean policy</b><br><span class="muted small">Tracks commands. drift 0.0355</span></a>
+<a class="card" href="scorecards/scorecard-synthfed.html"><span class="badge amber">REVIEW</span><br><b>Synthetic-trained policy</b><br><span class="muted small">Responsive but spiky. drift 0.1576</span></a>
+<a class="card" href="scorecards/scorecard-drifty.html"><span class="badge red">BLOCKED</span><br><b>Drifty policy</b><br><span class="muted small">Error compounds. drift 0.6365</span></a>
+<a class="card" href="scorecards/scorecard-playback.html"><span class="badge red">BLOCKED</span><br><b>Playback policy</b><br><span class="muted small">Dead steering wheel: sensitivity exactly 0.0</span></a>
+</div>
+<p class="small muted">These are real outputs captured from the engine (8 Genesis metrics,
+deterministic fixtures, hash-chained ledger), rendered as static pages so anyone
+can inspect them with no install.</p>
+
+<h2>Console screenshots</h2>
+<img class="shot" src="shots/hero-1440.png" alt="Genuity Verify console hero">
+<img class="shot" src="shots/demo-1440.png" alt="Interactive demo view">
+<img class="shot" src="shots/evidence-1440.png" alt="Evidence replay view">
+
+<h2>Run the interactive console locally</h2>
+<pre>git clone https://github.com/AK47-1845/vv-engine-frontend.git
+cd vv-engine-frontend/stdlib-mvp
+# Windows: double-click START.cmd, then open http://127.0.0.1:8000/
+# Any OS:  python backend/server.py   (stdlib only, works offline)</pre>
+<p class="small muted">Tests: <span class="mono">python tests/test_scorecard.py</span> (10 tests, stdlib unittest).
+Full Next.js pitch site + FastAPI backend: see repo README.</p>
+
+<h2>Honesty labels</h2>
+<div class="panel small"><ul>
+<li>Gates are <b>DRAFT</b> until calibration on real Open X-Embodiment pairs.</li>
+<li>Fixtures are synthetic by design; the engine they exercise is the real artifact.</li>
+<li>Jerk/bounds rows are proxies, not contact-dynamics proofs.</li>
+<li>This is an engineering evidence product, not a certification body. Nothing here
+is safety proof, a customer claim, or certified compliance.</li>
+</ul></div>
+
+<p class="small muted">Genuity IO, 2026. Questions: open an issue on the
+<a href="https://github.com/AK47-1845/vv-engine-frontend">repo</a>.</p>
+</div></body></html>
