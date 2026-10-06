@@ -1,0 +1,3 @@
+# Genuity Verify MVP · zero dependencies by design.
+# Python 3.10+ stdlib only. No pip install step. Ever.
+# (If Month-1 adds numpy/OXE tooling, it goes in backend-ml/, not here.)

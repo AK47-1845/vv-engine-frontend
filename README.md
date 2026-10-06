@@ -1,5 +1,15 @@
 # Genuity Verify
 
+> **Public demo:** https://ak47-1845.github.io/vv-engine-frontend/ — pre-rendered
+> trust scorecards, screenshots, and run instructions. No login, no install.
+> The interactive console runs locally (see below); the demo page shows real
+> output captured from it.
+
+**New here? Start with the zero-install MVP:** [`stdlib-mvp/`](stdlib-mvp/) runs
+the V&V scorecard on 4 deterministic policies with Python stdlib only —
+`START.cmd`, open http://127.0.0.1:8000/, done. Product spec and architecture
+live in [`prd/`](prd/) (PRD + CTO pitch).
+
 **Moving computers or handing off to Meta Muse?** Read `handoff/TRANSFER.md` and `handoff/META_MUSE_START_HERE.md`. The verified transfer ZIP includes a ready-to-preview website, full source and Git history. `OPEN-WEBSITE.cmd` opens the frozen preview without npm installation; Node.js is required.
 
 Physical-AI verification, validation and governance. This repository contains a Next.js pitch site, an existing Vite operations console, a Python engineering backend, and the source/decision history behind them.
